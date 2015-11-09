@@ -1,0 +1,165 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+
+.block /* Block wrapper */ {
+  margin-bottom: 1.5em;
+}
+
+.block.first /* The first block in the region */ {
+}
+
+.block.last /* The last block in the region */ {
+}
+
+.block.odd /* Zebra striping for each block in the region */ {
+}
+
+.block.even /* Zebra striping for each block in the region */ {
+}
+
+h2.block-title /* Block title */ {
+	font-size: 1.8em;
+	line-height: 1.3;
+	font-family: "open_sansbold";
+	margin-bottom:0.5em;
+}
+
+.block .content /* Block's content wrapper */ {
+}
+
+/*.front #block-views-sponsors-sponsor-block {
+	background:#fff;
+	padding-top:1em;
+	padding-bottom:1.5em;
+}*/
+
+/*.front #block-views-sponsors-sponsor-block > .content,
+.front #block-views-sponsors-sponsor-block .block-title {
+	width:960px;
+	margin:0 auto;
+}*/
+
+#block-views-sponsors-sponsor-block .block-title {
+	margin-bottom:0.5em;
+}
+
+.view-display-id-sponsor_block ul {
+	margin:0;
+	padding:0;
+}
+
+#block-views-sponsors-partner-block {
+	min-width:626px;
+	min-height:78px;
+	margin-bottom:0;
+}
+
+.view-display-id-partner_block ul {
+	margin:0;
+	margin-top:1em;
+	padding:0;
+	float:right;
+	width:100%;
+}
+
+/*.front .view-display-id-sponsor_block ul li,*/
+.view-display-id-partner_block ul li {
+	list-style: none;
+	float: left;
+	width: 33%;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+/*.not-front .view-display-id-sponsor_block ul li:not(:last-child) {
+	margin-bottom: 1em;
+}*/
+
+.view-display-id-sponsor_block ul li:not(:last-child) {
+	margin-bottom: 1em;
+}
+
+.view-display-id-sponsor_block ul li {
+	list-style: none;
+}
+
+.view-display-id-partner_block ul li {
+	width: 25%;
+	float:right;
+}
+
+.view-display-id-sponsor_block li img,
+.view-display-id-partner_block li img {
+	max-width:100%;
+	height:auto;
+}
+
+#block-views-judges-judges-block {
+	clear:both;
+	margin-bottom:3em;
+}
+
+.view-display-id-judges_block ul {
+	padding:0;
+	margin:0;
+}
+
+.view-display-id-judges_block ul li{
+	list-style: none;
+}
+
+.view-display-id-judges_block ul li:nth-child(7n-6) {
+	clear: left;
+}
+
+.view-display-id-judges_block .field-name-field-image {
+	margin-bottom: 60px
+}
+
+#block-system-powered-by {
+	display:none;
+}
+
+
+#block-boxes-site-intro {
+	clear: both;
+	margin: 0;
+	float: right;
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	font-size: 0.75em;
+}
+
+#block-boxes-site-intro .boxes-box-controls {
+	position:absolute;
+}
+
+#block-boxes-site-intro p {
+	margin: 0;
+}
+
+#block-views-homepage-homepage-featured {
+	margin-top:2em;
+	margin-bottom:1em;
+}
+
+#block-views-judges-judges-block {
+	background:#fff;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+#block-views-judges-judges-block .view-header p {
+	margin-top:0.5em;
+	margin-bottom:0;
+}
+
+#block-views-judges-judges-block .block-title {
+	margin-bottom:0;
+}

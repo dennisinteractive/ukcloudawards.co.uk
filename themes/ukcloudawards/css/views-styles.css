@@ -1,0 +1,45 @@
+/**
+ * @file
+ * Views Styling
+ */
+
+.view-homepage.view-display-id-page {
+	margin-bottom:1.5em;
+	padding-bottom:2em;
+	border-bottom:1px solid #DDD;
+}
+
+.view-homepage.view-display-id-page .view-content > .odd,
+.view-homepage.view-display-id-page .view-content > .even {
+	float:left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	margin-bottom: 1em;
+	background: #fff;
+	padding: 1em 1.5em;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	border-radius:5px;
+}
+
+.view-homepage.view-display-id-page .field-name-field-teaser-image {
+	float: left;
+	margin-right: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+.view-id-entry_forms .node {
+	margin-bottom:6em;
+}
+
+.view-entry-forms .node-title {
+	padding: 1em;
+	background: #34b1f9;
+	color: #fff;
+}
+
+.view-entry-forms .node-title a {
+	color: #fff;
+	pointer-events: none;
+	font-family: 'open_sansextrabold';
+}

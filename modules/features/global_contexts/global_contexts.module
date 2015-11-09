@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Global Contexts feature.
+ */
+
+include_once 'global_contexts.features.inc';

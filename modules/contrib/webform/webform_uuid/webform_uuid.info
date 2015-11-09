@@ -1,0 +1,6 @@
+name = Webform UUID
+description = Enables basic UUID/Deploy support for webforms, components and validation rules.
+core = 7.x
+package = Webform
+dependencies[] = webform
+dependencies[] = uuid

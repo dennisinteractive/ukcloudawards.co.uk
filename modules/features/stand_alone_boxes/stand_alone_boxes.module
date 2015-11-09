@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Stand-alone boxes feature.
+ */
+
+include_once 'stand_alone_boxes.features.inc';

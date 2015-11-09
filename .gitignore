@@ -1,2 +1,8 @@
 .sass-cache
 *.css.map
+
+.DS_Store
+settings\.php
+
+files
+node_modules

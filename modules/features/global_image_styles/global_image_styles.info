@@ -1,0 +1,17 @@
+name = Global Image Styles
+description = Also includes video styles
+core = 7.x
+package = global
+dependencies[] = ctools
+dependencies[] = image
+dependencies[] = video_embed_field
+features[ctools][] = video_embed_field:default_video_embed_styles:1
+features[features_api][] = api:2
+features[image][] = 137w_1x1
+features[image][] = 205w_1x1
+features[image][] = 208w_16x9
+features[image][] = 240w
+features[image][] = 620w_16x9
+features[image][] = 630w_2x1
+features[vef_video_styles][] = ukcloudawards_feature_teaser
+features[vef_video_styles][] = ukcloudawards_full

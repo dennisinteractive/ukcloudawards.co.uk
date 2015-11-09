@@ -1,0 +1,13 @@
+name = Stand-alone boxes
+core = 7.x
+package = ukcloudawards
+dependencies[] = boxes
+dependencies[] = context
+dependencies[] = ctools
+features[box][] = physical_award_image
+features[box][] = site_intro
+features[context][] = ukcloudawards_physical_award_image
+features[context][] = ukcloudawards_site_intro
+features[ctools][] = boxes:box:1
+features[ctools][] = context:context:3
+features[features_api][] = api:2

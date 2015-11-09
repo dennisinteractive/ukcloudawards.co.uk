@@ -1,0 +1,12 @@
+name = Global Taxonomies
+core = 7.x
+package = global
+dependencies[] = features
+dependencies[] = taxonomy
+dependencies[] = uuid
+dependencies[] = uuid_features
+features[features_api][] = api:2
+features[taxonomy][] = affiliation
+features[taxonomy][] = tags
+features[uuid_term][] = 71fe2677-967f-417c-a793-0f01455c7064
+features[uuid_term][] = d07a12b2-84cf-4747-b993-175d5728bd33

@@ -1,0 +1,14 @@
+name = Homepage
+core = 7.x
+package = ukcloudawards
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = fe_nodequeue
+dependencies[] = semanticviews
+dependencies[] = views
+features[context][] = ukcloudawards_homepage_featured
+features[ctools][] = context:context:3
+features[ctools][] = views:views_default:3.0
+features[fe_nodequeue][] = homepage_ordering
+features[features_api][] = api:2
+features[views_view][] = homepage

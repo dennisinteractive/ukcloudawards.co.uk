@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file
+ * Code for the Judges feature.
+ */
+
+include_once 'judges.features.inc';
+
+
+function judges_entity_view_mode_alter(&$view_mode, $context) {
+//krumo($context);
+	if ($context['entity_type'] == 'node' && $context['entity']->type == 'judges' && $context['entity']->sticky == 1) {
+		$view_mode = 'featured_teaser';
+	}
+
+}

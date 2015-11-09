@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Code for the Homepage feature.
+ */
+
+include_once 'homepage.features.inc';
+
+/**
+* Implements hook_entity_info_alter().
+*/
+function homepage_entity_info_alter(&$entity_info) {
+  $entity_info['node']['view modes']['featured_teaser'] = array(
+    'label' => t('Featured teaser'),
+    'custom settings' => TRUE,
+  );
+}

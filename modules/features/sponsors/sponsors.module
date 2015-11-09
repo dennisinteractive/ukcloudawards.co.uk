@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Code for the Sponsors feature.
+ */
+
+include_once 'sponsors.features.inc';
+
+/**
+* Implements hook_entity_info_alter().
+*/
+function sponsors_entity_info_alter(&$entity_info) {
+  $entity_info['field_collection_item']['view modes']['small_teaser'] = array(
+    'label' => t('Small teaser'),
+    'custom settings' => TRUE,
+  );
+}

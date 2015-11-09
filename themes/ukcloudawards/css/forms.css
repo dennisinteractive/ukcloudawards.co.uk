@@ -1,0 +1,261 @@
+/**
+ * @file
+ * Form Styling
+ */
+
+
+.form-item /* Wrapper for a form element (or group of form elements) and its label */ {
+  margin: 1.5em 0;
+}
+
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error /* Highlight the form elements that caused a form submission error */ {
+  border: 1px solid #c00;
+}
+
+.form-item label.option /* The label for a radio button or checkbox */ {
+  display: inline;
+  font-weight: normal;
+}
+
+.form-required /* The part of the label that indicates a required field */ {
+  color: #c00;
+}
+
+.form-item .description /* The descriptive help text (separate from the label) */ {
+  font-size: 0.85em;
+}
+
+.form-checkboxes .form-item,
+.form-radios .form-item /* Pack groups of checkboxes and radio buttons closer together */ {
+  margin: 0; /* Drupal core uses "0.4em 0" */
+}
+
+.form-submit /* The submit button */ {
+}
+
+.container-inline div,
+.container-inline label /* Inline labels and form divs */ {
+  display: inline;
+}
+
+.tips /* Tips for Drupal's input formats */ {
+}
+
+
+/*
+ * Password confirmation
+ */
+.password-parent,
+.confirm-parent {
+  margin: 0;
+}
+
+
+/*
+ * Search (search-block-form.tpl.php)
+ */
+#block-search-form /* Wrapper for the search form */ {
+}
+
+
+/*
+ * Drupal's default login form block
+ */
+#user-login-form {
+  text-align: left; /* LTR */
+}
+
+
+/*
+ * OpenID
+ *
+ * The default styling for the OpenID login link seems to assume Garland's
+ * styling of list items.
+ */
+
+#user-login-form ul /* OpenID creates a new ul above the login form's links. */ {
+  margin-bottom: 0; /* Position OpenID's ul next to the rest of the links. */
+}
+
+html.js #user-login-form li.openid-link,
+#user-login-form li.openid-link /* The "Log in using OpenID" link. */ {
+  margin-top: 1.5em;
+  margin-left: -20px; /* LTR */ /* Un-do some of the padding on the ul list. */
+}
+
+#user-login-form li.user-link /* The "Cancel OpenID login" link. */ {
+  margin-top: 1.5em;
+}
+
+#user-login ul {
+  margin: 1.5em 0;
+}
+
+
+/*
+ * Drupal admin tables
+ *
+ * We overrode these styles in html-reset.css, but restore them for the admin
+ * section of the site.
+ */
+
+form th {
+  text-align: left; /* LTR */
+  padding-right: 1em; /* LTR */
+  border-bottom: 3px solid #ccc;
+}
+
+form tbody {
+  border-top: 1px solid #ccc;
+}
+
+form tr.even {
+  background-color: #fff;
+}
+
+form table .item-list ul {
+  margin: 0;
+}
+
+
+/* CUSTOM FORM STYLING - UKCLOUDAWARDS */
+.webform-client-form {
+  background: #fff;
+}
+
+.webform-component-fieldset {
+  padding:0em 1.5em;
+  border:0;
+}
+
+.webform-component-fieldset legend {
+  text-transform: uppercase;
+  font-family: 'open_sansextrabold';
+  letter-spacing: -1px;
+  padding:1em 0;
+  font-size: 0.875em;
+}
+
+.webform-client-form .form-item {
+  margin: 0 0 0.5em 0;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+.form-item label {
+  font-family: 'open_sanssemibold';
+  font-weight:normal;
+  line-height: 2.5;
+  color: #555;
+  display: block;
+  margin-right: 2%;
+  width: 40%;
+  float: left;
+  text-align: right;
+}
+
+.webform-component-managed_file label,
+.webform-component-textarea label,
+.webform-component-checkboxes label {
+  padding-top:0.25em;
+  line-height:1.2;
+}
+
+.webform-client-form .form-text,
+.webform-client-form .form-textarea-wrapper,
+.webform-container-inline.webform-datepicker,
+.webform-component-radios .form-radios,
+.webform-client-form .form-checkboxes {
+  width: 58%;
+  float: left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  color: #555;
+}
+
+.webform-client-form .form-text {
+  border: 1px solid #bbb;
+  padding: 0.5em 0.75em;
+  border-radius: 0.25em;
+}
+
+.webform-component-radios .form-type-radio {
+  margin:0;
+}
+
+.webform-component-radios .form-type-radio input {
+  margin-top:0;
+}
+
+.webform-component-radios .form-radios label {
+  float: none;
+  width: auto;
+}
+
+.webform-container-inline.webform-datepicker .form-item {
+  width:auto;
+  float:none;
+  clear:none;
+}
+
+.webform-container-inline.webform-datepicker .form-select {
+  padding: 0.25em;
+  margin: 0.25em;
+}
+
+.webform-client-form .description {
+  clear:both;
+  font-style: italic;
+  font-size:0.75em;
+  color:#999;
+  text-align: right;
+}
+
+.webform-client-form .webform-component-managed_file {
+  margin:2em 0;
+}
+
+.webform-component-managed_file label {
+  padding:0;
+}
+
+.webform-client-form .form-actions {
+  text-align: right;
+}
+
+.webform-client-form .form-actions .form-submit {
+  margin:0 1.5em 1.5em;
+  font-size: 1.2em;
+  background: #34b1f9;
+  color: #fff;
+  border-radius: 0;
+  border: none;
+  font-family: 'open_sanssemibold';
+  font-weight: normal;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.webform-client-form .form-actions .form-submit:hover {
+  background: #b24376;
+}
+
+
+
+/* custom widths */
+#edit-submitted-customer-partner-details-customer-partner-postcode,
+#edit-submitted-company-details-company-postcode,
+#edit-submitted-company-details-company-postcode--2,
+#edit-submitted-company-details-company-postcode--3 {
+  width:20%;
+}
+
+#edit-submitted-customer-partner-details-customer-partner-phone-number,
+#edit-submitted-company-details-company-phone-number,
+#edit-submitted-company-details-company-phone-number--2,
+#edit-submitted-company-details-company-phone-number--3 {
+  width:40%;
+}
