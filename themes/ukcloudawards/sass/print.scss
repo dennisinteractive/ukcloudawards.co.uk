@@ -4,22 +4,21 @@
  *
  * We provide some sane print styling for Drupal using Zen's layout method.
  */
+
+
 /* underline all links */
-/* line 10, ../sass/print.scss */
 a:link,
 a:visited {
   text-decoration: underline !important;
 }
 
 /* Don't underline header */
-/* line 16, ../sass/print.scss */
 #site-name a:link,
 #site-name a:visited {
   text-decoration: none !important;
 }
 
 /* CSS2 selector to add visible href after links */
-/* line 22, ../sass/print.scss */
 #content a:link:after,
 #content a:visited:after {
   content: " (" attr(href) ") ";
@@ -28,7 +27,6 @@ a:visited {
 }
 
 /* Un-float the content */
-/* line 30, ../sass/print.scss */
 #content,
 #content .section {
   float: none;
@@ -38,7 +36,6 @@ a:visited {
 }
 
 /* Turn off any background colors or images */
-/* line 39, ../sass/print.scss */
 body,
 #page-wrapper,
 #page,
@@ -52,7 +49,6 @@ body,
 }
 
 /* Hide sidebars and nav elements */
-/* line 52, ../sass/print.scss */
 #skip-link,
 #toolbar,
 #navigation,
@@ -73,7 +69,6 @@ div.tabs,
 
 /* If you un-comment the "page { overflow-y: hidden; }" ruleset, Firefox clips
    the content after the first page. */
-/* line 72, ../sass/print.scss */
 #page-wrapper {
   overflow-y: visible;
 }

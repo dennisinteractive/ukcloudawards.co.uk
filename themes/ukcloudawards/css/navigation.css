@@ -2,11 +2,10 @@
  * @file
  * Navigation Styling
  */
-
-
 /*
  * The active item in a Drupal menu
  */
+/* line 10, ../sass/navigation.scss */
 li a.active {
   color: #000;
 }
@@ -14,44 +13,50 @@ li a.active {
 /*
  * Navigation bar
  */
+/* line 17, ../sass/navigation.scss */
 #navigation {
   /* overflow: hidden; /* Sometimes you want to prevent overlapping with main div. */
 }
 
-#navigation ul.links, /* Main menu and secondary menu links */
-#navigation .content ul /* Menu block links */ {
+/* line 21, ../sass/navigation.scss */
+#navigation ul.links,
+#navigation .content ul {
   margin: 0;
   padding: 0;
-  text-align: left; /* LTR */
+  text-align: left;
+  /* LTR */
 }
 
-#navigation ul.links li, /* A simple method to get navigation links to appear in one line. */
+/* line 28, ../sass/navigation.scss */
+#navigation ul.links li,
 #navigation .content li {
-  float: left; /* LTR */
-  padding: 0 10px 0 0; /* LTR */
+  float: left;
+  /* LTR */
+  padding: 0 10px 0 0;
+  /* LTR */
   list-style-type: none;
   list-style-image: none;
-}
-
-.region-navigation {
 }
 
 /*
  * Main menu and Secondary menu links
  */
+/* line 42, ../sass/navigation.scss */
 #main-menu,
 .menu-name-main-menu {
-  float:right;
+  float: right;
   line-height: 1;
   padding-top: 3.5em;
   padding-bottom: 4.5em;
 }
 
+/* line 50, ../sass/navigation.scss */
 .menu-name-main-menu ul {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
 }
 
+/* line 55, ../sass/navigation.scss */
 .menu-name-main-menu li.leaf {
   list-style: none;
   float: left;
@@ -60,8 +65,9 @@ li a.active {
   position: relative;
 }
 
+/* line 63, ../sass/navigation.scss */
 .menu-name-main-menu li.leaf:before {
-  content: "⋅";
+  content: "\b7\a0";
   font-size: 2em;
   margin-right: 20px;
   height: inherit;
@@ -70,14 +76,17 @@ li a.active {
   left: -1em;
 }
 
+/* line 73, ../sass/navigation.scss */
 .menu-name-main-menu li.leaf:first-child:before {
   content: "";
 }
 
+/* line 77, ../sass/navigation.scss */
 .menu-name-main-menu a {
   text-decoration: none;
 }
 
+/* line 81, ../sass/navigation.scss */
 #secondary-menu {
   float: right;
 }
@@ -85,14 +94,9 @@ li a.active {
 /*
  * Menu blocks
  */
-.block-menu {
-}
-
 /*
  * "Menu block" blocks
  *
  * Drupal core has limited ways in which it can display its menus. To get around
  * these limitations, see http://drupal.org/project/menu_block
  */
-.block-menu-block {
-}

@@ -39,7 +39,43 @@ li a.active {
 /*
  * Main menu and Secondary menu links
  */
-#main-menu {
+#main-menu,
+.menu-name-main-menu {
+  float:right;
+  line-height: 1;
+  padding-top: 3.5em;
+  padding-bottom: 4.5em;
+}
+
+.menu-name-main-menu ul {
+  padding:0;
+  margin:0;
+}
+
+.menu-name-main-menu li.leaf {
+  list-style: none;
+  float: left;
+  margin-left: 3em;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.menu-name-main-menu li.leaf:before {
+  content: "\b7\a0";
+  font-size: 2em;
+  margin-right: 20px;
+  height: inherit;
+  position: absolute;
+  bottom: -0.2em;
+  left: -1em;
+}
+
+.menu-name-main-menu li.leaf:first-child:before {
+  content: "";
+}
+
+.menu-name-main-menu a {
+  text-decoration: none;
 }
 
 #secondary-menu {

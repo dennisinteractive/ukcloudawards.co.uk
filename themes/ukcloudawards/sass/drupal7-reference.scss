@@ -57,105 +57,80 @@
  * - modules/update/update.css  (and update-rtl.css)
  * - modules/user/user.css  (and user-rtl.css)
  */
+
+
 /*
  * modules/aggregator/aggregator-rtl.css
  */
-/* line 66, ../sass/drupal7-reference.scss */
+
 #aggregator .feed-source .feed-icon {
   float: left;
 }
 
+
 /*
  * modules/aggregator/aggregator.css
  */
-/* line 75, ../sass/drupal7-reference.scss */
+
 #aggregator .feed-source .feed-title {
   margin-top: 0;
 }
-
-/* line 78, ../sass/drupal7-reference.scss */
 #aggregator .feed-source .feed-image img {
   margin-bottom: 0.75em;
 }
-
-/* line 81, ../sass/drupal7-reference.scss */
 #aggregator .feed-source .feed-icon {
-  float: right;
-  /* LTR */
+  float: right; /* LTR */
   display: block;
 }
-
-/* line 85, ../sass/drupal7-reference.scss */
 #aggregator .feed-item {
   margin-bottom: 1.5em;
 }
-
-/* line 88, ../sass/drupal7-reference.scss */
 #aggregator .feed-item-title {
   margin-bottom: 0;
   font-size: 1.3em;
 }
-
-/* line 92, ../sass/drupal7-reference.scss */
 #aggregator .feed-item-meta,
 #aggregator .feed-item-body {
   margin-bottom: 0.5em;
 }
-
-/* line 96, ../sass/drupal7-reference.scss */
 #aggregator .feed-item-categories {
   font-size: 0.9em;
 }
-
-/* line 99, ../sass/drupal7-reference.scss */
 #aggregator td {
   vertical-align: bottom;
 }
-
-/* line 102, ../sass/drupal7-reference.scss */
 #aggregator td.categorize-item {
   white-space: nowrap;
 }
-
-/* line 105, ../sass/drupal7-reference.scss */
 #aggregator .categorize-item .news-item .body {
   margin-top: 0;
 }
-
-/* line 108, ../sass/drupal7-reference.scss */
 #aggregator .categorize-item h3 {
   margin-bottom: 1em;
   margin-top: 0;
 }
 
+
 /*
  * modules/block/block.css
  */
-/* line 118, ../sass/drupal7-reference.scss */
+
 #blocks tr.region-title td {
   font-weight: bold;
 }
-
-/* line 121, ../sass/drupal7-reference.scss */
 #blocks tr.region-message {
   font-weight: normal;
   color: #999;
 }
-
-/* line 125, ../sass/drupal7-reference.scss */
 #blocks tr.region-populated {
   display: none;
 }
-
-/* line 128, ../sass/drupal7-reference.scss */
 .block-region {
   background-color: #ff6;
   margin-top: 4px;
   margin-bottom: 4px;
   padding: 3px;
 }
-
-/* line 134, ../sass/drupal7-reference.scss */
 a.block-demo-backlink,
 a.block-demo-backlink:link,
 a.block-demo-backlink:visited {
@@ -167,355 +142,262 @@ a.block-demo-backlink:visited {
   font-family: "Lucida Grande", Verdana, sans-serif;
   font-size: small;
   line-height: 20px;
-  left: 20px;
-  /*LTR*/
+  left: 20px; /*LTR*/
   padding: 5px 10px;
   position: fixed;
   z-index: 499;
 }
-
-/* line 150, ../sass/drupal7-reference.scss */
 a.block-demo-backlink:hover {
   text-decoration: underline;
 }
 
+
 /*
  * modules/book/book-rtl.css
  */
-/* line 159, ../sass/drupal7-reference.scss */
+
 .book-navigation .menu {
   padding: 1em 3em 0 0;
 }
 
-/* line 163, ../sass/drupal7-reference.scss */
 .book-navigation .page-previous {
   float: right;
 }
-
-/* line 166, ../sass/drupal7-reference.scss */
 .book-navigation .page-up {
   float: right;
 }
 
+
 /*
  * modules/book/book.css
  */
-/* line 175, ../sass/drupal7-reference.scss */
+
 .book-navigation .menu {
   border-top: 1px solid #888;
-  padding: 1em 0 0 3em;
-  /* LTR */
+  padding: 1em 0 0 3em; /* LTR */
 }
-
-/* line 179, ../sass/drupal7-reference.scss */
 .book-navigation .page-links {
   border-top: 1px solid #888;
   border-bottom: 1px solid #888;
   text-align: center;
   padding: 0.5em;
 }
-
-/* line 185, ../sass/drupal7-reference.scss */
 .book-navigation .page-previous {
   text-align: left;
   width: 42%;
   display: block;
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
 }
-
-/* line 191, ../sass/drupal7-reference.scss */
 .book-navigation .page-up {
   margin: 0 5%;
   width: 4%;
   display: block;
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
 }
-
-/* line 197, ../sass/drupal7-reference.scss */
 .book-navigation .page-next {
   text-align: right;
   width: 42%;
   display: block;
   float: right;
 }
-
-/* line 203, ../sass/drupal7-reference.scss */
 #book-outline {
   min-width: 56em;
 }
-
-/* line 206, ../sass/drupal7-reference.scss */
 .book-outline-form .form-item {
   margin-top: 0;
   margin-bottom: 0;
 }
-
-/* line 210, ../sass/drupal7-reference.scss */
 html.js #edit-book-pick-book {
   display: none;
 }
-
-/* line 213, ../sass/drupal7-reference.scss */
 .form-item-book-bid .description {
   clear: both;
 }
-
-/* line 216, ../sass/drupal7-reference.scss */
 #book-admin-edit select {
   margin-right: 24px;
 }
-
-/* line 219, ../sass/drupal7-reference.scss */
 #book-admin-edit select.progress-disabled {
   margin-right: 0;
 }
-
-/* line 222, ../sass/drupal7-reference.scss */
 #book-admin-edit tr.ajax-new-content {
   background-color: #ffd;
 }
-
-/* line 225, ../sass/drupal7-reference.scss */
 #book-admin-edit .form-item {
   float: left;
 }
 
+
 /*
  * modules/color/color-rtl.css
  */
-/* line 234, ../sass/drupal7-reference.scss */
+
 #placeholder {
   left: 0;
   right: auto;
 }
 
 /* Palette */
-/* line 240, ../sass/drupal7-reference.scss */
 .color-form .form-item {
   padding-left: 0;
   padding-right: 1em;
 }
-
-/* line 244, ../sass/drupal7-reference.scss */
 .color-form label {
   float: right;
   clear: right;
 }
-
-/* line 248, ../sass/drupal7-reference.scss */
 .color-form .form-text,
 .color-form .form-select {
   float: right;
 }
-
-/* line 252, ../sass/drupal7-reference.scss */
 .color-form .form-text {
   margin-right: 0;
   margin-left: 5px;
 }
-
-/* line 256, ../sass/drupal7-reference.scss */
 #palette .hook {
   float: right;
 }
-
-/* line 259, ../sass/drupal7-reference.scss */
 #palette .down,
 #palette .up,
 #palette .both {
   background: url(images/hook-rtl.png) no-repeat 0 0;
 }
-
-/* line 264, ../sass/drupal7-reference.scss */
 #palette .up {
   background-position: 0 -27px;
 }
-
-/* line 267, ../sass/drupal7-reference.scss */
 #palette .both {
   background-position: 0 -54px;
 }
-
-/* line 270, ../sass/drupal7-reference.scss */
 #palette .lock {
   float: right;
   right: -10px;
 }
-
-/* line 274, ../sass/drupal7-reference.scss */
 html.js #preview {
   float: right;
 }
 
+
 /*
  * modules/color/color.css
  */
+
 /* Farbtastic placement */
-/* line 284, ../sass/drupal7-reference.scss */
 .color-form {
   max-width: 50em;
   position: relative;
 }
-
-/* line 288, ../sass/drupal7-reference.scss */
 #placeholder {
   position: absolute;
   top: 0;
-  right: 0;
-  /* LTR */
+  right: 0; /* LTR */
 }
 
 /* Palette */
-/* line 295, ../sass/drupal7-reference.scss */
 .color-form .form-item {
   height: 2em;
   line-height: 2em;
-  padding-left: 1em;
-  /* LTR */
+  padding-left: 1em; /* LTR */
   margin: 0.5em 0;
 }
-
-/* line 301, ../sass/drupal7-reference.scss */
 .color-form label {
-  float: left;
-  /* LTR */
-  clear: left;
-  /* LTR */
+  float: left; /* LTR */
+  clear: left; /* LTR */
   width: 10em;
 }
-
-/* line 306, ../sass/drupal7-reference.scss */
 .color-form .form-text,
 .color-form .form-select {
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
 }
-
-/* line 310, ../sass/drupal7-reference.scss */
 .color-form .form-text {
   text-align: center;
-  margin-right: 5px;
-  /* LTR */
+  margin-right: 5px; /* LTR */
   cursor: pointer;
 }
 
-/* line 316, ../sass/drupal7-reference.scss */
 #palette .hook {
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
   margin-top: 3px;
   width: 16px;
   height: 16px;
 }
-
-/* line 322, ../sass/drupal7-reference.scss */
 #palette .down,
 #palette .up,
 #palette .both {
-  background: url(images/hook.png) no-repeat 100% 0;
-  /* LTR */
+  background: url(images/hook.png) no-repeat 100% 0; /* LTR */
 }
-
-/* line 327, ../sass/drupal7-reference.scss */
 #palette .up {
-  background-position: 100% -27px;
-  /* LTR */
+  background-position: 100% -27px; /* LTR */
 }
-
-/* line 330, ../sass/drupal7-reference.scss */
 #palette .both {
-  background-position: 100% -54px;
-  /* LTR */
+  background-position: 100% -54px; /* LTR */
 }
 
-/* line 334, ../sass/drupal7-reference.scss */
 #palette .lock {
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
   position: relative;
   top: -1.4em;
-  left: -10px;
-  /* LTR */
+  left: -10px; /* LTR */
   width: 20px;
   height: 25px;
   background: url(images/lock.png) no-repeat 50% 2px;
   cursor: pointer;
 }
-
-/* line 344, ../sass/drupal7-reference.scss */
 #palette .unlocked {
   background-position: 50% -22px;
 }
-
-/* line 347, ../sass/drupal7-reference.scss */
 #palette .form-item {
   width: 20em;
 }
-
-/* line 350, ../sass/drupal7-reference.scss */
 #palette .item-selected {
   background: #eee;
 }
 
 /* Preview */
-/* line 355, ../sass/drupal7-reference.scss */
 #preview {
   display: none;
 }
-
-/* line 358, ../sass/drupal7-reference.scss */
 html.js #preview {
   display: block;
   position: relative;
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
 }
+
 
 /*
  * modules/comment/comment-rtl.css
  */
-/* line 369, ../sass/drupal7-reference.scss */
+
 .indented {
   margin-left: 0;
   margin-right: 25px;
 }
 
+
 /*
  * modules/comment/comment.css
  */
-/* line 379, ../sass/drupal7-reference.scss */
+
 #comments {
   margin-top: 15px;
 }
-
-/* line 382, ../sass/drupal7-reference.scss */
 .indented {
-  margin-left: 25px;
-  /* LTR */
+  margin-left: 25px; /* LTR */
 }
-
-/* line 385, ../sass/drupal7-reference.scss */
 .comment-unpublished {
   background-color: #fff4f4;
 }
-
-/* line 388, ../sass/drupal7-reference.scss */
 .comment-preview {
   background-color: #ffffea;
 }
 
+
 /*
  * modules/contextual/contextual-rtl.css
  */
-/* line 397, ../sass/drupal7-reference.scss */
+
 div.contextual-links-wrapper {
   left: 5px;
   right: auto;
 }
-
-/* line 401, ../sass/drupal7-reference.scss */
 div.contextual-links-wrapper ul.contextual-links {
   -moz-border-radius: 0 4px 4px 4px;
   -webkit-border-top-left-radius: 0;
@@ -524,25 +406,22 @@ div.contextual-links-wrapper ul.contextual-links {
   left: 0;
   right: auto;
 }
-
-/* line 409, ../sass/drupal7-reference.scss */
 a.contextual-links-trigger {
   text-indent: -90px;
 }
 
+
 /*
  * modules/contextual/contextual.css
  */
+
 /**
  * Contextual links regions.
  */
-/* line 421, ../sass/drupal7-reference.scss */
 .contextual-links-region {
   outline: none;
   position: relative;
 }
-
-/* line 425, ../sass/drupal7-reference.scss */
 .contextual-links-region-active {
   outline: #999 dashed 1px;
 }
@@ -550,23 +429,17 @@ a.contextual-links-trigger {
 /**
  * Contextual links.
  */
-/* line 432, ../sass/drupal7-reference.scss */
 div.contextual-links-wrapper {
   display: none;
   font-size: 90%;
   position: absolute;
-  right: 5px;
-  /* LTR */
+  right: 5px; /* LTR */
   top: 2px;
   z-index: 999;
 }
-
-/* line 440, ../sass/drupal7-reference.scss */
 html.js div.contextual-links-wrapper {
   display: block;
 }
-
-/* line 443, ../sass/drupal7-reference.scss */
 a.contextual-links-trigger {
   background: transparent url(images/gear-select.png) no-repeat 2px 0;
   border: 1px solid transparent;
@@ -575,8 +448,7 @@ a.contextual-links-trigger {
   margin: 0;
   padding: 0 2px;
   outline: none;
-  text-indent: 34px;
-  /* LTR */
+  text-indent: 34px; /* LTR */
   width: 28px;
   overflow: hidden;
   -khtml-border-radius: 4px;
@@ -584,14 +456,10 @@ a.contextual-links-trigger {
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
-
-/* line 459, ../sass/drupal7-reference.scss */
 a.contextual-links-trigger:hover,
 div.contextual-links-active a.contextual-links-trigger {
   background-position: 2px -18px;
 }
-
-/* line 463, ../sass/drupal7-reference.scss */
 div.contextual-links-active a.contextual-links-trigger {
   background-position: 2px -18px;
   background-color: #fff;
@@ -604,8 +472,6 @@ div.contextual-links-active a.contextual-links-trigger {
   -webkit-border-bottom-right-radius: 0;
   border-radius: 4px 4px 0 0;
 }
-
-/* line 475, ../sass/drupal7-reference.scss */
 div.contextual-links-wrapper ul.contextual-links {
   background-color: #fff;
   border: 1px solid #ccc;
@@ -617,26 +483,18 @@ div.contextual-links-wrapper ul.contextual-links {
   text-align: left;
   top: 18px;
   white-space: nowrap;
-  -moz-border-radius: 4px 0 4px 4px;
-  /* LTR */
+  -moz-border-radius: 4px 0 4px 4px; /* LTR */
   -webkit-border-bottom-left-radius: 4px;
   -webkit-border-bottom-right-radius: 4px;
-  -webkit-border-top-right-radius: 0;
-  /* LTR */
-  -webkit-border-top-left-radius: 4px;
-  /* LTR */
-  border-radius: 4px 0 4px 4px;
-  /* LTR */
+  -webkit-border-top-right-radius: 0; /* LTR */
+  -webkit-border-top-left-radius: 4px; /* LTR */
+  border-radius: 4px 0 4px 4px; /* LTR */
 }
-
-/* line 493, ../sass/drupal7-reference.scss */
 .contextual-links-region:hover a.contextual-links-trigger,
 div.contextual-links-active a.contextual-links-trigger,
 div.contextual-links-active ul.contextual-links {
   display: block;
 }
-
-/* line 498, ../sass/drupal7-reference.scss */
 ul.contextual-links li {
   line-height: 100%;
   list-style: none;
@@ -644,216 +502,172 @@ ul.contextual-links li {
   margin: 0;
   padding: 0;
 }
-
-/* line 505, ../sass/drupal7-reference.scss */
 div.contextual-links-wrapper a {
   text-decoration: none;
 }
-
-/* line 508, ../sass/drupal7-reference.scss */
 ul.contextual-links li a {
   color: #333 !important;
   display: block;
   margin: 0.25em 0;
   padding: 0.25em 1em 0.25em 0.5em;
 }
-
-/* line 514, ../sass/drupal7-reference.scss */
 ul.contextual-links li a:hover {
   background-color: #bfdcee;
 }
 
+
 /*
  * modules/dashboard/dashboard-rtl.css
  */
-/* line 523, ../sass/drupal7-reference.scss */
+
 #dashboard div.dashboard-region {
   float: right;
 }
-
-/* line 526, ../sass/drupal7-reference.scss */
 #dashboard #disabled-blocks .block, #dashboard .block-placeholder {
   float: right;
   margin: 3px 0 3px 3px;
   padding: 6px 8px 6px 4px;
 }
-
-/* line 531, ../sass/drupal7-reference.scss */
 #dashboard .canvas-content a.button {
   margin: 0 10px 0 0;
 }
-
-/* line 534, ../sass/drupal7-reference.scss */
 #dashboard .ui-sortable .block h2 {
   background-position: right -39px;
   padding: 0 19px;
 }
-
-/* line 538, ../sass/drupal7-reference.scss */
 #dashboard.customize-inactive #disabled-blocks .block:hover h2 {
   background-position: right -39px;
 }
-
-/* line 541, ../sass/drupal7-reference.scss */
 #dashboard.customize-inactive .dashboard-region .ui-sortable .block:hover h2 {
   background-position: right -36px;
 }
-
-/* line 544, ../sass/drupal7-reference.scss */
 #dashboard div#dashboard_main {
   margin-left: 1%;
   margin-right: 0;
 }
 
+
 /*
  * modules/dashboard/dashboard.css
  */
-/* line 554, ../sass/drupal7-reference.scss */
+
 #dashboard div.dashboard-region {
   float: left;
   min-height: 1px;
 }
 
-/* line 559, ../sass/drupal7-reference.scss */
 #dashboard div#dashboard_main {
   width: 65%;
-  margin-right: 1%;
-  /* LTR */
+  margin-right: 1%; /* LTR */
 }
 
-/* line 564, ../sass/drupal7-reference.scss */
 #dashboard div#dashboard_sidebar {
   width: 33%;
 }
 
-/* line 568, ../sass/drupal7-reference.scss */
 #dashboard div.block {
   margin-bottom: 20px;
 }
 
-/* line 572, ../sass/drupal7-reference.scss */
 #dashboard .dashboard-region .block {
   clear: both;
 }
 
-/* line 576, ../sass/drupal7-reference.scss */
 #dashboard div.block h2 {
   float: none;
 }
 
-/* line 580, ../sass/drupal7-reference.scss */
 #dashboard #disabled-blocks .block,
 #dashboard .block-placeholder {
   background: #e2e1dc;
-  padding: 6px 4px 6px 8px;
-  /* LTR */
-  margin: 3px 3px 3px 0;
-  /* LTR */
-  float: left;
-  /* LTR */
+  padding: 6px 4px 6px 8px; /* LTR */
+  margin: 3px 3px 3px 0; /* LTR */
+  float: left; /* LTR */
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
 
-/* line 591, ../sass/drupal7-reference.scss */
 #dashboard .dashboard-add-other-blocks {
   margin: 10px 0 0 0;
 }
 
-/* line 595, ../sass/drupal7-reference.scss */
 #dashboard .ui-sortable {
   border: 2px dashed #ccc;
   padding: 10px;
 }
 
-/* line 600, ../sass/drupal7-reference.scss */
 #dashboard .canvas-content {
   padding: 10px;
 }
 
-/* line 604, ../sass/drupal7-reference.scss */
 #dashboard #disabled-blocks .ui-sortable {
   padding: 0;
   background-color: #777;
   border: 0;
 }
 
-/* line 610, ../sass/drupal7-reference.scss */
 #dashboard .canvas-content a.button {
-  margin: 0 0 0 10px;
-  /* LTR */
+  margin: 0 0 0 10px; /* LTR */
   color: #5a5a5a;
   text-decoration: none;
 }
 
-/* line 616, ../sass/drupal7-reference.scss */
 #dashboard .region {
   margin: 5px;
 }
 
-/* line 620, ../sass/drupal7-reference.scss */
 #dashboard #disabled-blocks .region {
   background-color: #E0E0D8;
   border: #ccc 1px solid;
   padding: 10px;
 }
 
-/* line 626, ../sass/drupal7-reference.scss */
 #dashboard #disabled-blocks {
   padding: 5px 0;
 }
 
-/* line 630, ../sass/drupal7-reference.scss */
 #dashboard #disabled-blocks h2 {
   display: inline;
   font-weight: normal;
   white-space: nowrap;
 }
 
-/* line 636, ../sass/drupal7-reference.scss */
 #dashboard #disabled-blocks .block {
   background: #444;
   color: #fff;
 }
 
-/* line 641, ../sass/drupal7-reference.scss */
 #dashboard.customize-inactive #disabled-blocks .block:hover {
   background: #0074BD;
 }
 
-/* line 645, ../sass/drupal7-reference.scss */
 #dashboard #disabled-blocks .block .content,
 #dashboard .ui-sortable-helper .content {
   display: none;
 }
 
-/* line 650, ../sass/drupal7-reference.scss */
 #dashboard .ui-sortable .block {
   cursor: move;
   min-height: 1px;
 }
 
-/* line 655, ../sass/drupal7-reference.scss */
 #dashboard .ui-sortable .block h2 {
   background: transparent url(../../misc/draggable.png) no-repeat 0px -39px;
   padding: 0 17px;
 }
 
-/* line 660, ../sass/drupal7-reference.scss */
 #dashboard.customize-inactive #disabled-blocks .block:hover h2 {
   background: #0074BD url(../../misc/draggable.png) no-repeat 0px -39px;
   color: #fff;
 }
 
-/* line 665, ../sass/drupal7-reference.scss */
 #dashboard.customize-inactive .dashboard-region .ui-sortable .block:hover h2 {
   background: #0074BD url(../../misc/draggable.png) no-repeat;
   background-position: 3px -36px;
   color: #fff;
 }
 
-/* line 671, ../sass/drupal7-reference.scss */
 #dashboard .dashboard-region .block-placeholder {
   margin: 0 0 20px 0;
   padding: 0;
@@ -862,16 +676,16 @@ ul.contextual-links li a:hover {
   width: 100%;
 }
 
-/* line 679, ../sass/drupal7-reference.scss */
 #dashboard #disabled-blocks .block-placeholder {
   width: 30px;
   height: 1.6em;
 }
 
+
 /*
  * modules/dblog/dblog-rtl.css
  */
-/* line 689, ../sass/drupal7-reference.scss */
+
 .form-item-type,
 .form-item-severity {
   float: right;
@@ -879,16 +693,15 @@ ul.contextual-links li a:hover {
   padding-left: .8em;
 }
 
+
 /*
  * modules/dblog/dblog.css
  */
-/* line 701, ../sass/drupal7-reference.scss */
+
 .form-item-type,
 .form-item-severity {
-  float: left;
-  /* LTR */
-  padding-right: .8em;
-  /* LTR */
+  float: left; /* LTR */
+  padding-right: .8em; /* LTR */
   margin: 0.1em;
   /**
    * In Opera 9, DOM elements with the property of "overflow: auto"
@@ -897,269 +710,195 @@ ul.contextual-links li a:hover {
    */
   width: 15em;
 }
-
-/* line 713, ../sass/drupal7-reference.scss */
 #dblog-filter-form .form-type-select select {
   width: 100%;
 }
-
-/* line 716, ../sass/drupal7-reference.scss */
 #dblog-filter-form .form-actions {
   float: left;
   padding: 3ex 0 0 1em;
 }
 
-/* line 721, ../sass/drupal7-reference.scss */
 tr.dblog-user {
   background: #ffd;
 }
-
-/* line 724, ../sass/drupal7-reference.scss */
 tr.dblog-user .active {
   background: #eed;
 }
-
-/* line 727, ../sass/drupal7-reference.scss */
 tr.dblog-content {
   background: #ddf;
 }
-
-/* line 730, ../sass/drupal7-reference.scss */
 tr.dblog-content .active {
   background: #cce;
 }
-
-/* line 733, ../sass/drupal7-reference.scss */
 tr.dblog-page-not-found,
 tr.dblog-access-denied {
   background: #dfd;
 }
-
-/* line 737, ../sass/drupal7-reference.scss */
 tr.dblog-page-not-found .active,
 tr.dblog-access-denied .active {
   background: #cec;
 }
-
-/* line 741, ../sass/drupal7-reference.scss */
 tr.dblog-error {
   background: #ffc9c9;
 }
-
-/* line 744, ../sass/drupal7-reference.scss */
 tr.dblog-error .active {
   background: #eeb9b9;
 }
-
-/* line 747, ../sass/drupal7-reference.scss */
 table#admin-dblog td.icon {
   background: no-repeat center;
   width: 16px;
 }
-
-/* line 751, ../sass/drupal7-reference.scss */
 table#admin-dblog tr.dblog-warning td.icon {
   background-image: url(../../misc/message-16-warning.png);
 }
-
-/* line 754, ../sass/drupal7-reference.scss */
 table#admin-dblog tr.dblog-error td.icon {
   background-image: url(../../misc/message-16-error.png);
 }
 
+
 /*
  * modules/field/theme/field-rtl.css
  */
-/* line 763, ../sass/drupal7-reference.scss */
+
 form .field-multiple-table th.field-label {
   padding-right: 0;
 }
-
-/* line 766, ../sass/drupal7-reference.scss */
 form .field-multiple-table td.field-multiple-drag {
   padding-left: 0;
 }
-
-/* line 769, ../sass/drupal7-reference.scss */
-form .field-multiple-table td.field-multiple-drag a.tabledrag-handle {
+form .field-multiple-table td.field-multiple-drag a.tabledrag-handle{
   padding-left: .5em;
 }
-
-/* line 772, ../sass/drupal7-reference.scss */
 .field-label-inline .field-label,
 .field-label-inline .field-items {
   float: right;
 }
+
 
 /*
  * modules/field/theme/field.css
  */
+
 /* Field display */
-/* line 783, ../sass/drupal7-reference.scss */
 .field .field-label {
   font-weight: bold;
 }
-
-/* line 786, ../sass/drupal7-reference.scss */
 .field-label-inline .field-label,
 .field-label-inline .field-items {
-  float: left;
-  /*LTR*/
+  float:left; /*LTR*/
 }
 
 /* Form display */
-/* line 792, ../sass/drupal7-reference.scss */
 form .field-multiple-table {
   margin: 0;
 }
-
-/* line 795, ../sass/drupal7-reference.scss */
 form .field-multiple-table th.field-label {
-  padding-left: 0;
-  /*LTR*/
+  padding-left: 0; /*LTR*/
 }
-
-/* line 798, ../sass/drupal7-reference.scss */
 form .field-multiple-table td.field-multiple-drag {
   width: 30px;
-  padding-right: 0;
-  /*LTR*/
+  padding-right: 0; /*LTR*/
 }
-
-/* line 802, ../sass/drupal7-reference.scss */
 form .field-multiple-table td.field-multiple-drag a.tabledrag-handle {
-  padding-right: .5em;
-  /*LTR*/
+  padding-right: .5em; /*LTR*/
 }
 
-/* line 806, ../sass/drupal7-reference.scss */
 form .field-add-more-submit {
   margin: .5em 0 0;
 }
 
+
 /*
  * modules/field_ui/field_ui-rtl.css
  */
+
 /* 'Manage fields' overview */
-/* line 816, ../sass/drupal7-reference.scss */
 table.field-ui-overview tr.add-new .label-input {
   float: right;
 }
 
+
 /*
  * modules/field_ui/field_ui.css
  */
-/* 'Manage fields' and 'Manage display' overviews */
-/* line 826, ../sass/drupal7-reference.scss */
-table.field-ui-overview tr.add-new .label-input {
-  float: left;
-  /* LTR */
-}
 
-/* line 829, ../sass/drupal7-reference.scss */
+/* 'Manage fields' and 'Manage display' overviews */
+table.field-ui-overview tr.add-new .label-input {
+  float: left; /* LTR */
+}
 table.field-ui-overview tr.add-new .tabledrag-changed {
   display: none;
 }
-
-/* line 832, ../sass/drupal7-reference.scss */
 table.field-ui-overview tr.add-new .description {
   margin-bottom: 0;
 }
-
-/* line 835, ../sass/drupal7-reference.scss */
 table.field-ui-overview tr.add-new .add-new-placeholder {
   font-weight: bold;
   padding-bottom: .5em;
 }
-
-/* line 839, ../sass/drupal7-reference.scss */
 table.field-ui-overview tr.region-title td {
   font-weight: bold;
 }
-
-/* line 842, ../sass/drupal7-reference.scss */
 table.field-ui-overview tr.region-message td {
   font-style: italic;
 }
-
-/* line 845, ../sass/drupal7-reference.scss */
 table.field-ui-overview tr.region-populated {
   display: none;
 }
-
-/* line 848, ../sass/drupal7-reference.scss */
 table.field-ui-overview tr.region-add-new-title {
   display: none;
 }
 
 /* 'Manage display' overview */
-/* line 853, ../sass/drupal7-reference.scss */
 #field-display-overview .field-formatter-summary-cell {
   line-height: 1em;
 }
-
-/* line 856, ../sass/drupal7-reference.scss */
 #field-display-overview .field-formatter-summary {
   float: left;
   font-size: 0.9em;
 }
-
-/* line 860, ../sass/drupal7-reference.scss */
 #field-display-overview td.field-formatter-summary-cell span.warning {
   display: block;
   float: left;
   margin-right: .5em;
 }
-
-/* line 865, ../sass/drupal7-reference.scss */
 #field-display-overview .field-formatter-settings-edit-wrapper {
   float: right;
 }
-
-/* line 868, ../sass/drupal7-reference.scss */
 #field-display-overview .field-formatter-settings-edit {
   float: right;
 }
-
-/* line 871, ../sass/drupal7-reference.scss */
 #field-display-overview tr.field-formatter-settings-editing td {
   vertical-align: top;
 }
-
-/* line 874, ../sass/drupal7-reference.scss */
 #field-display-overview tr.field-formatter-settings-editing .field-formatter-type {
   display: none;
 }
-
-/* line 877, ../sass/drupal7-reference.scss */
-#field-display-overview .field-formatter-settings-edit-form .formatter-name {
+#field-display-overview .field-formatter-settings-edit-form .formatter-name{
   font-weight: bold;
 }
-
-/* line 880, ../sass/drupal7-reference.scss */
 #field-ui-display-overview-form #edit-refresh {
-  display: none;
+  display:none;
 }
+
 
 /*
  * modules/file/file.css
  */
+
 /**
  * Managed file element styles.
  */
-/* line 892, ../sass/drupal7-reference.scss */
 .form-managed-file .form-file,
 .form-managed-file .form-submit {
   margin: 0;
 }
 
-/* line 897, ../sass/drupal7-reference.scss */
 .form-managed-file input.progress-disabled {
   float: none;
   display: inline;
 }
 
-/* line 902, ../sass/drupal7-reference.scss */
 .form-managed-file div.ajax-progress,
 .form-managed-file div.throbber {
   display: inline;
@@ -1167,12 +906,10 @@ table.field-ui-overview tr.region-add-new-title {
   padding: 1px 5px 2px 5px;
 }
 
-/* line 909, ../sass/drupal7-reference.scss */
 .form-managed-file div.ajax-progress div {
   display: inline;
 }
 
-/* line 913, ../sass/drupal7-reference.scss */
 .form-managed-file div.ajax-progress-bar {
   display: none;
   margin-top: 4px;
@@ -1180,82 +917,60 @@ table.field-ui-overview tr.region-add-new-title {
   padding: 0;
 }
 
-/* line 920, ../sass/drupal7-reference.scss */
 .form-managed-file div.ajax-progress-bar div.bar {
   margin: 0;
 }
 
+
 /*
  * modules/filter/filter.css
  */
-/* line 929, ../sass/drupal7-reference.scss */
+
 .text-format-wrapper .form-item {
   margin-bottom: 0;
 }
-
-/* line 932, ../sass/drupal7-reference.scss */
 .filter-wrapper {
   border-top: 0;
   margin: 0;
   padding: 1.5em 0 1.5em;
 }
-
-/* line 937, ../sass/drupal7-reference.scss */
 .filter-wrapper .form-item {
   float: left;
   padding: 0 0 0.5em 1.5em;
 }
-
-/* line 941, ../sass/drupal7-reference.scss */
 .filter-wrapper .form-item label {
   display: inline;
 }
-
-/* line 944, ../sass/drupal7-reference.scss */
 .filter-help {
   float: right;
   padding: 0 1.5em 0.5em;
 }
-
-/* line 948, ../sass/drupal7-reference.scss */
 .filter-help p {
   margin: 0;
 }
-
-/* line 951, ../sass/drupal7-reference.scss */
 .filter-help a {
   background: transparent url(../../misc/help.png) right center no-repeat;
   padding: 0 20px;
 }
-
-/* line 955, ../sass/drupal7-reference.scss */
 .filter-guidelines {
   clear: left;
   padding: 0 1.5em;
 }
-
-/* line 959, ../sass/drupal7-reference.scss */
 .text-format-wrapper .description {
   margin-top: 0.5em;
 }
 
-/* line 963, ../sass/drupal7-reference.scss */
 #filter-order tr .form-item {
   padding: 0.5em 0 0 3em;
   white-space: normal;
 }
-
-/* line 967, ../sass/drupal7-reference.scss */
 #filter-order tr .form-type-checkbox .description {
   padding: 0 0 0 2.5em;
 }
-
-/* line 970, ../sass/drupal7-reference.scss */
 input#edit-filters-filter-html-settings-allowed-html {
   width: 100%;
 }
 
-/* line 974, ../sass/drupal7-reference.scss */
 .tips {
   margin-top: 0;
   margin-bottom: 0;
@@ -1264,43 +979,37 @@ input#edit-filters-filter-html-settings-allowed-html {
   font-size: 0.9em;
 }
 
+
 /*
  * modules/forum/forum-rtl.css
  */
-/* line 987, ../sass/drupal7-reference.scss */
+
 #forum tr td.forum {
   padding-left: 0.5em;
   padding-right: 25px;
   background-position: 98% 2px;
 }
-
-/* line 992, ../sass/drupal7-reference.scss */
 .forum-topic-navigation {
   padding: 1em 3em 0 0;
 }
-
-/* line 995, ../sass/drupal7-reference.scss */
 .forum-topic-navigation .topic-previous {
   text-align: left;
   float: right;
 }
-
-/* line 999, ../sass/drupal7-reference.scss */
 .forum-topic-navigation .topic-next {
   text-align: right;
   float: left;
 }
 
+
 /*
  * modules/forum/forum.css
  */
-/* line 1009, ../sass/drupal7-reference.scss */
+
 #forum .description {
   font-size: 0.9em;
   margin: 0.5em;
 }
-
-/* line 1013, ../sass/drupal7-reference.scss */
 #forum td.created,
 #forum td.posts,
 #forum td.topics,
@@ -1309,124 +1018,97 @@ input#edit-filters-filter-html-settings-allowed-html {
 #forum td.pager {
   white-space: nowrap;
 }
-
-/* line 1021, ../sass/drupal7-reference.scss */
 #forum tr td.forum {
-  padding-left: 25px;
-  /* LTR */
-  background-position: 2px 2px;
-  /* LTR */
+  padding-left: 25px; /* LTR */
+  background-position: 2px 2px; /* LTR */
   background-image: url(../../misc/forum-default.png);
   background-repeat: no-repeat;
 }
-
-/* line 1027, ../sass/drupal7-reference.scss */
 #forum tr.new-topics td.forum {
   background-image: url(../../misc/forum-new.png);
 }
-
-/* line 1030, ../sass/drupal7-reference.scss */
 #forum div.indent {
   margin-left: 20px;
 }
-
-/* line 1033, ../sass/drupal7-reference.scss */
 #forum .icon div {
   background-image: url(../../misc/forum-icons.png);
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
 }
-
-/* line 1039, ../sass/drupal7-reference.scss */
 #forum .icon .topic-status-new {
   background-position: -24px 0;
 }
-
-/* line 1042, ../sass/drupal7-reference.scss */
 #forum .icon .topic-status-hot {
   background-position: -48px 0;
 }
-
-/* line 1045, ../sass/drupal7-reference.scss */
 #forum .icon .topic-status-hot-new {
   background-position: -72px 0;
 }
-
-/* line 1048, ../sass/drupal7-reference.scss */
 #forum .icon .topic-status-sticky {
   background-position: -96px 0;
 }
-
-/* line 1051, ../sass/drupal7-reference.scss */
 #forum .icon .topic-status-closed {
   background-position: -120px 0;
 }
 
+
 /*
  * modules/help/help-rtl.css
  */
-/* line 1060, ../sass/drupal7-reference.scss */
+
 .help-items {
   float: right;
   padding-right: 0;
   padding-left: 3%;
 }
-
-/* line 1065, ../sass/drupal7-reference.scss */
 .help-items-last {
   padding-right: 0;
   padding-left: 0;
 }
 
+
 /*
  * modules/help/help.css
  */
-/* line 1075, ../sass/drupal7-reference.scss */
+
 .help-items {
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
   width: 22%;
-  padding-right: 3%;
-  /* LTR */
+  padding-right: 3%; /* LTR */
+}
+.help-items-last {
+  padding-right: 0; /* LTR */
 }
 
-/* line 1080, ../sass/drupal7-reference.scss */
-.help-items-last {
-  padding-right: 0;
-  /* LTR */
-}
 
 /*
  * modules/image/image-rtl.css
  */
+
 /**
  * Image upload widget.
  */
-/* line 1092, ../sass/drupal7-reference.scss */
 div.image-preview {
   float: right;
   padding: 0 0 10px 10px;
 }
-
-/* line 1096, ../sass/drupal7-reference.scss */
 div.image-widget-data {
   float: right;
 }
 
+
 /*
  * modules/image/image.admin.css
  */
+
 /**
  * Image style configuration pages.
  */
-/* line 1108, ../sass/drupal7-reference.scss */
 div.image-style-new,
 div.image-style-new div {
   display: inline;
 }
-
-/* line 1112, ../sass/drupal7-reference.scss */
 div.image-style-preview div.preview-image-wrapper {
   float: left;
   padding-bottom: 2em;
@@ -1434,14 +1116,10 @@ div.image-style-preview div.preview-image-wrapper {
   top: 50%;
   width: 48%;
 }
-
-/* line 1119, ../sass/drupal7-reference.scss */
 div.image-style-preview div.preview-image {
   margin: auto;
   position: relative;
 }
-
-/* line 1123, ../sass/drupal7-reference.scss */
 div.image-style-preview div.preview-image div.width {
   border: 1px solid #666;
   border-top: none;
@@ -1450,14 +1128,10 @@ div.image-style-preview div.preview-image div.width {
   bottom: -6px;
   position: absolute;
 }
-
-/* line 1131, ../sass/drupal7-reference.scss */
 div.image-style-preview div.preview-image div.width span {
   position: relative;
   top: 4px;
 }
-
-/* line 1135, ../sass/drupal7-reference.scss */
 div.image-style-preview div.preview-image div.height {
   border: 1px solid #666;
   border-left: none;
@@ -1466,8 +1140,6 @@ div.image-style-preview div.preview-image div.height {
   top: -1px;
   width: 2px;
 }
-
-/* line 1143, ../sass/drupal7-reference.scss */
 div.image-style-preview div.preview-image div.height span {
   height: 2em;
   left: 10px;
@@ -1479,64 +1151,51 @@ div.image-style-preview div.preview-image div.height span {
 /**
  * Image anchor element.
  */
-/* line 1154, ../sass/drupal7-reference.scss */
 table.image-anchor {
   width: auto;
 }
-
-/* line 1157, ../sass/drupal7-reference.scss */
 table.image-anchor tr.even,
 table.image-anchor tr.odd {
   background: none;
 }
-
-/* line 1161, ../sass/drupal7-reference.scss */
 table.image-anchor td {
   border: 1px solid #CCC;
 }
 
+
 /*
  * modules/image/image.css
  */
+
 /**
  * Image upload widget.
  */
-/* line 1173, ../sass/drupal7-reference.scss */
 div.image-preview {
-  float: left;
-  /* LTR */
-  padding: 0 10px 10px 0;
-  /* LTR */
+  float: left; /* LTR */
+  padding: 0 10px 10px 0; /* LTR */
 }
-
-/* line 1177, ../sass/drupal7-reference.scss */
 div.image-widget-data {
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
 }
-
-/* line 1180, ../sass/drupal7-reference.scss */
 div.image-widget-data input.text-field {
   width: auto;
 }
 
+
 /*
  * modules/locale/locale.css
  */
-/* line 1189, ../sass/drupal7-reference.scss */
+
 .locale-untranslated {
   font-style: normal;
   text-decoration: line-through;
 }
 
-/* line 1194, ../sass/drupal7-reference.scss */
 #locale-translation-filter-form .form-item-language,
 #locale-translation-filter-form .form-item-translation,
 #locale-translation-filter-form .form-item-group {
-  float: left;
-  /* LTR */
-  padding-right: .8em;
-  /* LTR */
+  float: left; /* LTR */
+  padding-right: .8em; /* LTR */
   margin: 0.1em;
   /**
    * In Opera 9, DOM elements with the property of "overflow: auto"
@@ -1545,50 +1204,44 @@ div.image-widget-data input.text-field {
    */
   width: 15em;
 }
-
-/* line 1207, ../sass/drupal7-reference.scss */
 #locale-translation-filter-form .form-type-select select {
   width: 100%;
 }
-
-/* line 1210, ../sass/drupal7-reference.scss */
 #locale-translation-filter-form .form-actions {
   float: left;
   padding: 3ex 0 0 1em;
 }
 
-/* line 1215, ../sass/drupal7-reference.scss */
 .language-switcher-locale-session a.active {
   color: #0062A0;
 }
 
-/* line 1219, ../sass/drupal7-reference.scss */
 .language-switcher-locale-session a.session-active {
   color: #000000;
 }
 
+
 /*
  * modules/menu/menu.css
  */
-/* line 1228, ../sass/drupal7-reference.scss */
+
 .menu-operations {
   width: 100px;
 }
 
-/* line 1232, ../sass/drupal7-reference.scss */
 .menu-enabled {
   width: 70px;
 }
 
-/* line 1236, ../sass/drupal7-reference.scss */
 .menu-enabled input {
-  margin-left: 25px;
+  margin-left:25px;
 }
+
 
 /*
  * modules/node/node-rtl.css
  */
-/* line 1245, ../sass/drupal7-reference.scss */
+
 #node-admin-content dl.multiselect dd .form-item label {
   display: block;
   float: right;
@@ -1596,7 +1249,6 @@ div.image-widget-data input.text-field {
   font-weight: normal;
 }
 
-/* line 1252, ../sass/drupal7-reference.scss */
 #node-admin-buttons {
   float: right;
   margin-left: 0;
@@ -1604,138 +1256,104 @@ div.image-widget-data input.text-field {
   clear: left;
 }
 
+
 /*
  * modules/node/node.css
  */
-/* line 1264, ../sass/drupal7-reference.scss */
+
 .node-unpublished {
   background-color: #fff4f4;
 }
-
-/* line 1267, ../sass/drupal7-reference.scss */
 .preview .node {
   background-color: #ffffea;
 }
-
-/* line 1270, ../sass/drupal7-reference.scss */
 td.revision-current {
   background: #ffc;
 }
 
+
 /*
  * modules/openid/openid-rtl.css
  */
-/* line 1279, ../sass/drupal7-reference.scss */
+
 #edit-openid-identifier {
   background-position: right 50%;
   padding-left: 0;
   padding-right: 20px;
 }
-
-/* line 1284, ../sass/drupal7-reference.scss */
 #user-login .openid-links {
   padding-right: 0;
 }
-
-/* line 1287, ../sass/drupal7-reference.scss */
 html.js #user-login-form li.openid-link,
 html.js #user-login li.openid-link {
   margin-right: 0;
 }
-
-/* line 1291, ../sass/drupal7-reference.scss */
 #user-login-form li.openid-link a,
 #user-login li.openid-link a {
   background-position: right top;
   padding: 0 1.5em 0 0;
 }
 
+
 /*
  * modules/openid/openid.css
  */
-/* line 1302, ../sass/drupal7-reference.scss */
+
 #edit-openid-identifier {
   background-image: url("login-bg.png");
-  background-position: left 50%;
-  /* LTR */
+  background-position: left 50%; /* LTR */
   background-repeat: no-repeat;
-  padding-left: 20px;
-  /* LTR */
+  padding-left: 20px; /* LTR */
 }
-
-/* line 1308, ../sass/drupal7-reference.scss */
 div.form-item-openid-identifier {
   display: block;
 }
-
-/* line 1311, ../sass/drupal7-reference.scss */
 html.js #user-login-form div.form-item-openid-identifier,
 html.js #user-login div.form-item-openid-identifier {
   display: none;
 }
-
-/* line 1315, ../sass/drupal7-reference.scss */
 #user-login-form ul {
   margin-top: 0;
 }
-
-/* line 1318, ../sass/drupal7-reference.scss */
 #user-login ul {
   margin: 0 0 5px;
 }
-
-/* line 1321, ../sass/drupal7-reference.scss */
 #user-login ul li {
   margin: 0;
 }
-
-/* line 1324, ../sass/drupal7-reference.scss */
 #user-login-form .openid-links {
   padding-bottom: 0;
 }
-
-/* line 1327, ../sass/drupal7-reference.scss */
 #user-login .openid-links {
-  padding-left: 0;
-  /* LTR */
+  padding-left: 0; /* LTR */
 }
-
-/* line 1330, ../sass/drupal7-reference.scss */
 #user-login-form .openid-links li,
 #user-login .openid-links li {
   display: none;
   list-style: none;
 }
-
-/* line 1335, ../sass/drupal7-reference.scss */
 html.js #user-login-form li.openid-link,
 html.js #user-login li.openid-link {
   display: block;
-  margin-left: 0;
-  /* LTR */
+  margin-left: 0; /* LTR */
 }
-
-/* line 1340, ../sass/drupal7-reference.scss */
 #user-login-form li.openid-link a,
 #user-login li.openid-link a {
   background-image: url("login-bg.png");
-  background-position: left top;
-  /* LTR */
+  background-position: left top; /* LTR */
   background-repeat: no-repeat;
-  padding: 0 0 0 1.5em;
-  /* LTR */
+  padding: 0 0 0 1.5em; /* LTR */
 }
+
 
 /*
  * modules/overlay/overlay-child.css
  */
-/* line 1353, ../sass/drupal7-reference.scss */
+
 html.js {
   background: transparent !important;
   overflow-y: scroll;
 }
-
-/* line 1357, ../sass/drupal7-reference.scss */
 html.js body {
   background: transparent !important;
   margin-left: 0;
@@ -1743,7 +1361,6 @@ html.js body {
   padding: 20px 0;
 }
 
-/* line 1364, ../sass/drupal7-reference.scss */
 #overlay {
   display: table;
   margin: 0 auto;
@@ -1754,16 +1371,12 @@ html.js body {
   padding-right: 26px;
   width: 88%;
 }
-
-/* line 1374, ../sass/drupal7-reference.scss */
 #overlay-titlebar {
   padding: 0 20px;
   position: relative;
   white-space: nowrap;
   z-index: 100;
 }
-
-/* line 1380, ../sass/drupal7-reference.scss */
 #overlay-content {
   background: #fff;
   clear: both;
@@ -1772,12 +1385,9 @@ html.js body {
   position: relative;
 }
 
-/* line 1388, ../sass/drupal7-reference.scss */
 #overlay-title-wrapper {
   overflow: hidden;
 }
-
-/* line 1391, ../sass/drupal7-reference.scss */
 #overlay-title {
   color: #fff;
   float: left;
@@ -1785,31 +1395,22 @@ html.js body {
   margin: 0;
   padding: 0.3em 0;
 }
-
-/* line 1398, ../sass/drupal7-reference.scss */
 #overlay-title:active,
 #overlay-title:focus {
   outline: 0;
 }
 
-/* line 1403, ../sass/drupal7-reference.scss */
 .overlay #skip-link {
   margin-top: -20px;
 }
-
-/* line 1406, ../sass/drupal7-reference.scss */
 .overlay #skip-link a {
-  color: #fff;
-  /* This is white to contrast with the dark background behind it. */
+  color: #fff; /* This is white to contrast with the dark background behind it. */
 }
 
-/* line 1410, ../sass/drupal7-reference.scss */
 #overlay-close-wrapper {
   position: absolute;
   right: 0;
 }
-
-/* line 1414, ../sass/drupal7-reference.scss */
 #overlay-close,
 #overlay-close:hover {
   background: transparent url(images/close.png) no-repeat;
@@ -1828,7 +1429,6 @@ html.js body {
 /**
  * Tabs on the overlay.
  */
-/* line 1432, ../sass/drupal7-reference.scss */
 #overlay-tabs {
   line-height: 27px;
   margin: -28px 0 0 0;
@@ -1836,16 +1436,12 @@ html.js body {
   right: 20px;
   text-transform: uppercase;
 }
-
-/* line 1439, ../sass/drupal7-reference.scss */
 #overlay-tabs li {
   display: inline;
   list-style: none;
   margin: 0 0 0 -3px;
   padding: 0;
 }
-
-/* line 1445, ../sass/drupal7-reference.scss */
 #overlay-tabs li a,
 #overlay-tabs li a:active,
 #overlay-tabs li a:visited,
@@ -1864,8 +1460,6 @@ html.js body {
   padding: 0 14px;
   text-decoration: none;
 }
-
-/* line 1463, ../sass/drupal7-reference.scss */
 #overlay-tabs li.active a,
 #overlay-tabs li.active a.active,
 #overlay-tabs li.active a:active,
@@ -1874,14 +1468,10 @@ html.js body {
   margin: 0;
   padding-bottom: 2px;
 }
-
-/* line 1471, ../sass/drupal7-reference.scss */
 #overlay-tabs li a:focus,
 #overlay-tabs li a:hover {
   color: #fff;
 }
-
-/* line 1475, ../sass/drupal7-reference.scss */
 #overlay-tabs li.active a:focus,
 #overlay-tabs li.active a:hover {
   color: #000;
@@ -1890,7 +1480,6 @@ html.js body {
 /**
  * Add to shortcuts link
  */
-/* line 1483, ../sass/drupal7-reference.scss */
 #overlay-titlebar .add-or-remove-shortcuts {
   padding-top: 0.9em;
 }
@@ -1899,7 +1488,6 @@ html.js body {
  * IE6 shows elements with position:fixed as position:static so replace
  * it with position:absolute;
  */
-/* line 1491, ../sass/drupal7-reference.scss */
 * html #overlay-close,
 * html #overlay-close:hover {
   position: absolute;
@@ -1908,7 +1496,6 @@ html.js body {
 /**
  * Disable message.
  */
-/* line 1499, ../sass/drupal7-reference.scss */
 #overlay-disable-message {
   background-color: #fff;
   margin: -20px auto 20px;
@@ -1918,34 +1505,28 @@ html.js body {
   -webkit-border-bottom-right-radius: 8px;
   border-radius: 0 0 8px 8px;
 }
-
-/* line 1508, ../sass/drupal7-reference.scss */
 .overlay-disable-message-focused {
   padding: 0.5em;
 }
-
-/* line 1511, ../sass/drupal7-reference.scss */
 .overlay-disable-message-focused a {
   display: block;
   float: left;
 }
-
-/* line 1515, ../sass/drupal7-reference.scss */
 .overlay-disable-message-focused #overlay-dismiss-message {
   float: right;
 }
 
+
 /*
  * modules/overlay/overlay-parent.css
  */
-/* line 1524, ../sass/drupal7-reference.scss */
+
 html.overlay-open,
 html.overlay-open body {
   height: 100%;
   overflow: hidden;
 }
 
-/* line 1530, ../sass/drupal7-reference.scss */
 #overlay-container,
 .overlay-modal-background,
 .overlay-element {
@@ -1957,25 +1538,20 @@ html.overlay-open body {
   z-index: 500;
 }
 
-/* line 1541, ../sass/drupal7-reference.scss */
 .overlay-modal-background {
   /* Using a transparent png renders faster than using opacity */
   background: transparent url(images/background.png) repeat;
 }
 
-/* line 1546, ../sass/drupal7-reference.scss */
 .overlay-element {
   background: transparent;
   left: -200%;
   z-index: 501;
 }
-
-/* line 1551, ../sass/drupal7-reference.scss */
 .overlay-element.overlay-active {
   left: 0;
 }
 
-/* line 1555, ../sass/drupal7-reference.scss */
 html.overlay-open .displace-top,
 html.overlay-open .displace-bottom {
   z-index: 600;
@@ -1988,264 +1564,190 @@ html.overlay-open .displace-bottom {
  * contains styling for the same message appearing within the overlay, and
  * intended for sighted users.
  */
-/* line 1567, ../sass/drupal7-reference.scss */
 #overlay-disable-message {
   display: none;
 }
-
-/* line 1570, ../sass/drupal7-reference.scss */
 html.overlay-open #overlay-disable-message {
   display: block;
 }
 
+
 /*
  * modules/poll/poll-rtl.css
  */
-/* line 1579, ../sass/drupal7-reference.scss */
+
 .poll .bar .foreground {
   float: right;
 }
-
-/* line 1582, ../sass/drupal7-reference.scss */
 .poll .percent {
   text-align: left;
 }
-
-/* line 1585, ../sass/drupal7-reference.scss */
 .poll .vote-form .choices {
   text-align: right;
 }
 
+
 /*
  * modules/poll/poll.css
  */
-/* line 1594, ../sass/drupal7-reference.scss */
+
 .poll {
   overflow: hidden;
 }
-
-/* line 1597, ../sass/drupal7-reference.scss */
 .poll .bar {
   height: 1em;
   margin: 1px 0;
   background-color: #ddd;
 }
-
-/* line 1602, ../sass/drupal7-reference.scss */
 .poll .bar .foreground {
   background-color: #000;
   height: 1em;
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
 }
-
-/* line 1607, ../sass/drupal7-reference.scss */
 .poll .links {
   text-align: center;
 }
-
-/* line 1610, ../sass/drupal7-reference.scss */
 .poll .percent {
-  text-align: right;
-  /* LTR */
+  text-align: right; /* LTR */
 }
-
-/* line 1613, ../sass/drupal7-reference.scss */
 .poll .total {
   text-align: center;
 }
-
-/* line 1616, ../sass/drupal7-reference.scss */
 .poll .vote-form {
   text-align: center;
 }
-
-/* line 1619, ../sass/drupal7-reference.scss */
 .poll .vote-form .choices {
-  text-align: left;
-  /* LTR */
+  text-align: left; /* LTR */
   margin: 0 auto;
   display: table;
 }
-
-/* line 1624, ../sass/drupal7-reference.scss */
 .poll .vote-form .choices .title {
   font-weight: bold;
 }
-
-/* line 1627, ../sass/drupal7-reference.scss */
 .node-form #edit-poll-more {
   margin: 0;
 }
-
-/* line 1630, ../sass/drupal7-reference.scss */
 .node-form #poll-choice-table .form-text {
   display: inline;
   width: auto;
 }
-
-/* line 1634, ../sass/drupal7-reference.scss */
 .node-form #poll-choice-table td.choice-flag {
   white-space: nowrap;
   width: 4em;
 }
-
-/* line 1638, ../sass/drupal7-reference.scss */
 td.poll-chtext {
   width: 80%;
 }
-
-/* line 1641, ../sass/drupal7-reference.scss */
 td.poll-chvotes .form-text {
   width: 85%;
 }
 
+
 /*
  * modules/profile/profile.css
  */
-/* line 1650, ../sass/drupal7-reference.scss */
+
 #profile-fields td.category {
   font-weight: bold;
 }
-
-/* line 1653, ../sass/drupal7-reference.scss */
 #profile-fields tr.category-message {
   color: #999;
 }
-
-/* line 1656, ../sass/drupal7-reference.scss */
 #profile-fields tr.category-populated {
   display: none;
 }
 
+
 /*
  * modules/search/search-rtl.css
  */
-/* line 1665, ../sass/drupal7-reference.scss */
+
 .search-advanced .criterion {
   float: right;
   margin-right: 0;
   margin-left: 2em;
 }
-
-/* line 1670, ../sass/drupal7-reference.scss */
 .search-advanced .action {
   float: right;
   clear: right;
 }
-
-/* line 1674, ../sass/drupal7-reference.scss */
 .search-results .search-snippet-info {
-  padding-right: 1em;
-  /* LTR */
+  padding-right: 1em; /* LTR */
 }
+
 
 /*
  * modules/search/search.css
  */
-/* line 1683, ../sass/drupal7-reference.scss */
+
 .search-form {
   margin-bottom: 1em;
 }
-
-/* line 1686, ../sass/drupal7-reference.scss */
 .search-form input {
   margin-top: 0;
   margin-bottom: 0;
 }
-
-/* line 1690, ../sass/drupal7-reference.scss */
 .search-results {
   list-style: none;
 }
-
-/* line 1693, ../sass/drupal7-reference.scss */
 .search-results p {
   margin-top: 0;
 }
-
-/* line 1696, ../sass/drupal7-reference.scss */
 .search-results .title {
   font-size: 1.2em;
 }
-
-/* line 1699, ../sass/drupal7-reference.scss */
 .search-results li {
   margin-bottom: 1em;
 }
-
-/* line 1702, ../sass/drupal7-reference.scss */
 .search-results .search-snippet-info {
-  padding-left: 1em;
-  /* LTR */
+  padding-left: 1em; /* LTR */
 }
-
-/* line 1705, ../sass/drupal7-reference.scss */
 .search-results .search-info {
   font-size: 0.85em;
 }
-
-/* line 1708, ../sass/drupal7-reference.scss */
 .search-advanced .criterion {
-  float: left;
-  /* LTR */
-  margin-right: 2em;
-  /* LTR */
+  float: left; /* LTR */
+  margin-right: 2em; /* LTR */
+}
+.search-advanced .action {
+  float: left; /* LTR */
+  clear: left; /* LTR */
 }
 
-/* line 1712, ../sass/drupal7-reference.scss */
-.search-advanced .action {
-  float: left;
-  /* LTR */
-  clear: left;
-  /* LTR */
-}
 
 /*
  * modules/shortcut/shortcut-rtl.css
  */
-/* line 1722, ../sass/drupal7-reference.scss */
+
 div#toolbar a#edit-shortcuts {
   position: absolute;
   left: 0;
   top: 0;
   padding: 5px 5px 5px 10px;
 }
-
-/* line 1728, ../sass/drupal7-reference.scss */
 div#toolbar div.toolbar-shortcuts ul {
   float: none;
   margin-right: 5px;
   margin-left: 10em;
 }
-
-/* line 1733, ../sass/drupal7-reference.scss */
 div#toolbar div.toolbar-shortcuts ul li a {
   margin-left: 5px;
   margin-right: 0;
   padding: 0 5px;
 }
-
-/* line 1738, ../sass/drupal7-reference.scss */
 div#toolbar div.toolbar-shortcuts span.icon {
   float: right;
 }
-
-/* line 1741, ../sass/drupal7-reference.scss */
 div.add-or-remove-shortcuts a span.icon {
   float: right;
   margin-right: 8px;
   margin-left: 0;
 }
-
-/* line 1746, ../sass/drupal7-reference.scss */
 div.add-or-remove-shortcuts a span.text {
   float: right;
   padding-right: 10px;
   padding-left: 0;
 }
-
-/* line 1751, ../sass/drupal7-reference.scss */
 div.add-or-remove-shortcuts a:hover span.text {
   -moz-border-radius: 5px 0 0 5px;
   -webkit-border-top-left-radius: 5px;
@@ -2253,48 +1755,41 @@ div.add-or-remove-shortcuts a:hover span.text {
   border-radius: 5px 0 0 5px;
   padding-left: 6px;
 }
-
-/* line 1758, ../sass/drupal7-reference.scss */
 #shortcut-set-switch .form-item-new {
   padding-right: 17px;
   padding-left: 0;
 }
-
-/* line 1762, ../sass/drupal7-reference.scss */
 div.add-shortcut a:hover span.icon {
   background-position: 0 -24px;
 }
-
-/* line 1765, ../sass/drupal7-reference.scss */
 div.remove-shortcut a:hover span.icon {
   background-position: -12px -24px;
 }
 
+
 /*
  * modules/shortcut/shortcut.admin.css
  */
-/* line 1774, ../sass/drupal7-reference.scss */
+
 .shortcut-slot-hidden {
   display: none;
 }
 
-/* line 1778, ../sass/drupal7-reference.scss */
 div.form-item-set div.form-item-new {
   display: inline;
 }
 
+
 /*
  * modules/shortcut/shortcut.css
  */
-/* line 1787, ../sass/drupal7-reference.scss */
+
 div#toolbar a#edit-shortcuts {
   float: right;
   padding: 5px 10px 5px 5px;
   line-height: 24px;
   color: #fefefe;
 }
-
-/* line 1793, ../sass/drupal7-reference.scss */
 div#toolbar a#edit-shortcuts:focus,
 div#toolbar a#edit-shortcuts:hover,
 div#toolbar a#edit-shortcuts.active {
@@ -2302,94 +1797,75 @@ div#toolbar a#edit-shortcuts.active {
   text-decoration: underline;
 }
 
-/* line 1800, ../sass/drupal7-reference.scss */
 div#toolbar div.toolbar-shortcuts ul {
   padding: 5px 0 2px 0;
   height: 28px;
   line-height: 24px;
-  float: left;
-  /* LTR */
-  margin-left: 5px;
-  /* LTR */
+  float: left; /* LTR */
+  margin-left:5px; /* LTR */
 }
 
-/* line 1808, ../sass/drupal7-reference.scss */
 div#toolbar div.toolbar-shortcuts ul li a {
   padding: 0 5px 0 5px;
-  margin-right: 5px;
-  /* LTR */
+  margin-right: 5px; /* LTR */
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
 
-/* line 1816, ../sass/drupal7-reference.scss */
 div#toolbar div.toolbar-shortcuts ul li a:focus,
 div#toolbar div.toolbar-shortcuts ul li a:hover,
 div#toolbar div.toolbar-shortcuts ul li a.active:focus {
   background: #555;
 }
 
-/* line 1822, ../sass/drupal7-reference.scss */
 div#toolbar div.toolbar-shortcuts ul li a.active:hover,
 div#toolbar div.toolbar-shortcuts ul li a.active {
   background: #000;
 }
 
-/* line 1827, ../sass/drupal7-reference.scss */
 div#toolbar div.toolbar-shortcuts span.icon {
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
   background: #444;
   width: 30px;
   height: 30px;
-  margin-right: 5px;
-  /* LTR */
+  margin-right: 5px; /* LTR */
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
 
-/* line 1838, ../sass/drupal7-reference.scss */
 div.add-or-remove-shortcuts {
   padding-top: 5px;
 }
 
-/* line 1842, ../sass/drupal7-reference.scss */
 div.add-or-remove-shortcuts a span.icon {
   display: block;
   width: 12px;
   background: transparent url(shortcut.png) no-repeat scroll 0 0;
   height: 12px;
   float: left;
-  margin-left: 8px;
+  margin-left:8px;
 }
 
-/* line 1851, ../sass/drupal7-reference.scss */
 div.add-shortcut a:focus span.icon,
 div.add-shortcut a:hover span.icon {
   background-position: 0 -12px;
 }
-
-/* line 1855, ../sass/drupal7-reference.scss */
 div.remove-shortcut a span.icon {
   background-position: -12px 0;
 }
-
-/* line 1858, ../sass/drupal7-reference.scss */
 div.remove-shortcut a:focus span.icon,
 div.remove-shortcut a:hover span.icon {
   background-position: -12px -12px;
 }
 
-/* line 1863, ../sass/drupal7-reference.scss */
 div.add-or-remove-shortcuts a span.text {
   float: left;
-  padding-left: 10px;
+  padding-left:10px;
   display: none;
 }
 
-/* line 1869, ../sass/drupal7-reference.scss */
 div.add-or-remove-shortcuts a:focus span.text,
 div.add-or-remove-shortcuts a:hover span.text {
   font-size: 10px;
@@ -2397,62 +1873,50 @@ div.add-or-remove-shortcuts a:hover span.text {
   color: #fff;
   background-color: #5f605b;
   display: block;
-  padding-right: 6px;
-  /* LTR */
+  padding-right: 6px; /* LTR */
   cursor: pointer;
-  -moz-border-radius: 0 5px 5px 0;
-  /* LTR */
-  -webkit-border-top-right-radius: 5px;
-  /* LTR */
-  -webkit-border-bottom-right-radius: 5px;
-  /* LTR */
-  border-radius: 0 5px 5px 0;
-  /* LTR */
+  -moz-border-radius: 0 5px 5px 0; /* LTR */
+  -webkit-border-top-right-radius: 5px; /* LTR */
+  -webkit-border-bottom-right-radius: 5px; /* LTR */
+  border-radius: 0 5px 5px 0; /* LTR */
 }
 
-/* line 1884, ../sass/drupal7-reference.scss */
 #shortcut-set-switch .form-type-radios {
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-/* line 1889, ../sass/drupal7-reference.scss */
 #shortcut-set-switch .form-item-new {
   padding-top: 0;
-  padding-left: 17px;
-  /* LTR */
+  padding-left: 17px; /* LTR */
 }
+
 
 /*
  * modules/system/system.admin-rtl.css
  */
+
 /**
  * @file
  * RTL styles for administration pages.
  */
+
 /**
  * Administration blocks.
  */
-/* line 1907, ../sass/drupal7-reference.scss */
 div.admin-panel .body {
   padding: 0 8px 2px 4px;
 }
-
-/* line 1910, ../sass/drupal7-reference.scss */
 div.admin .left {
   float: right;
   margin-left: 0;
   margin-right: 1em;
 }
-
-/* line 1915, ../sass/drupal7-reference.scss */
 div.admin .right {
   float: left;
   margin-left: 1em;
   margin-right: 0;
 }
-
-/* line 1920, ../sass/drupal7-reference.scss */
 div.admin .expert-link {
   margin-right: 0;
   margin-left: 1em;
@@ -2464,13 +1928,10 @@ div.admin .expert-link {
 /**
  * Status report.
  */
-/* line 1931, ../sass/drupal7-reference.scss */
 table.system-status-report td.status-icon {
   padding-left: 0;
   padding-right: 6px;
 }
-
-/* line 1935, ../sass/drupal7-reference.scss */
 table.system-status-report tr.merge-up td {
   padding: 0 28px 8px 6px;
 }
@@ -2478,38 +1939,27 @@ table.system-status-report tr.merge-up td {
 /**
  * Appearance page.
  */
-/* line 1942, ../sass/drupal7-reference.scss */
 table.screenshot {
   margin-left: 1em;
 }
-
-/* line 1945, ../sass/drupal7-reference.scss */
 .system-themes-list-enabled .theme-selector .screenshot,
 .system-themes-list-enabled .theme-selector .no-screenshot {
   float: right;
   margin: 0 0 0 20px;
 }
-
-/* line 1950, ../sass/drupal7-reference.scss */
 .system-themes-list-disabled .theme-selector {
   float: right;
   padding: 20px 0 20px 20px;
 }
-
-/* line 1954, ../sass/drupal7-reference.scss */
 .theme-selector .operations li {
   border-right: none;
   border-left: 1px solid #cdcdcd;
   float: right;
 }
-
-/* line 1959, ../sass/drupal7-reference.scss */
 .theme-selector .operations li.last {
   border-left: none;
   padding: 0 0.7em 0 0;
 }
-
-/* line 1963, ../sass/drupal7-reference.scss */
 .theme-selector .operations li.first {
   padding: 0 0 0 0.7em;
 }
@@ -2517,91 +1967,67 @@ table.screenshot {
 /**
  * Exposed filters.
  */
-/* line 1970, ../sass/drupal7-reference.scss */
 .exposed-filters .filters {
   float: right;
   margin-left: 1em;
   margin-right: 0;
 }
-
-/* line 1975, ../sass/drupal7-reference.scss */
 .exposed-filters .form-item label {
   float: right;
 }
-
 /* Current filters */
-/* line 1979, ../sass/drupal7-reference.scss */
 .exposed-filters .additional-filters {
   float: right;
   margin-left: 1em;
   margin-right: 0;
 }
 
+
 /*
  * modules/system/system.admin.css
  */
+
 /**
  * @file
  * Styles for administration pages.
  */
+
 /**
  * Administration blocks.
  */
-/* line 1998, ../sass/drupal7-reference.scss */
 div.admin-panel {
   margin: 0;
   padding: 5px 5px 15px 5px;
 }
-
-/* line 2002, ../sass/drupal7-reference.scss */
 div.admin-panel .description {
   margin: 0 0 3px;
   padding: 2px 0 3px 0;
 }
-
-/* line 2006, ../sass/drupal7-reference.scss */
 div.admin-panel .body {
-  padding: 0 4px 2px 8px;
-  /* LTR */
+  padding: 0 4px 2px 8px; /* LTR */
 }
-
-/* line 2009, ../sass/drupal7-reference.scss */
 div.admin {
   padding-top: 15px;
 }
-
-/* line 2012, ../sass/drupal7-reference.scss */
 div.admin .left {
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
   width: 47%;
-  margin-left: 1em;
-  /* LTR */
+  margin-left: 1em; /* LTR */
 }
-
-/* line 2017, ../sass/drupal7-reference.scss */
 div.admin .right {
-  float: right;
-  /* LTR */
+  float: right; /* LTR */
   width: 47%;
-  margin-right: 1em;
-  /* LTR */
+  margin-right: 1em; /* LTR */
 }
-
-/* line 2022, ../sass/drupal7-reference.scss */
 div.admin .expert-link {
-  text-align: right;
-  /* LTR */
-  margin-right: 1em;
-  /* LTR */
-  padding-right: 4px;
-  /* LTR */
+  text-align: right; /* LTR */
+  margin-right: 1em; /* LTR */
+  padding-right: 4px; /* LTR */
 }
 
 /**
  * Markup generated by theme_system_compact_link().
  */
-/* line 2031, ../sass/drupal7-reference.scss */
 .compact-link {
   margin: 0 0 0.5em 0;
 }
@@ -2609,12 +2035,9 @@ div.admin .expert-link {
 /**
  * Quick inline admin links.
  */
-/* line 2038, ../sass/drupal7-reference.scss */
 small .admin-link:before {
   content: '[';
 }
-
-/* line 2041, ../sass/drupal7-reference.scss */
 small .admin-link:after {
   content: ']';
 }
@@ -2622,113 +2045,71 @@ small .admin-link:after {
 /**
  * Modules page.
  */
-/* line 2048, ../sass/drupal7-reference.scss */
 #system-modules div.incompatible {
   font-weight: bold;
 }
-
-/* line 2051, ../sass/drupal7-reference.scss */
 div.admin-requirements,
 div.admin-required {
   font-size: 0.9em;
   color: #444;
 }
-
-/* line 2056, ../sass/drupal7-reference.scss */
 span.admin-disabled {
   color: #800;
 }
-
-/* line 2059, ../sass/drupal7-reference.scss */
 span.admin-enabled {
   color: #080;
 }
-
-/* line 2062, ../sass/drupal7-reference.scss */
 span.admin-missing {
   color: #f00;
 }
-
-/* line 2065, ../sass/drupal7-reference.scss */
 a.module-link {
   display: block;
-  padding: 1px 0 1px 20px;
-  /* LTR */
+  padding: 1px 0 1px 20px; /* LTR */
   white-space: nowrap;
 }
-
-/* line 2070, ../sass/drupal7-reference.scss */
 a.module-link-help {
-  background: url(../../misc/help.png) 0 50% no-repeat;
-  /* LTR */
+  background: url(../../misc/help.png) 0 50% no-repeat; /* LTR */
 }
-
-/* line 2073, ../sass/drupal7-reference.scss */
 a.module-link-permissions {
-  background: url(../../misc/permissions.png) 0 50% no-repeat;
-  /* LTR */
+  background: url(../../misc/permissions.png) 0 50% no-repeat; /* LTR */
 }
-
-/* line 2076, ../sass/drupal7-reference.scss */
 a.module-link-configure {
-  background: url(../../misc/configure.png) 0 50% no-repeat;
-  /* LTR */
+  background: url(../../misc/configure.png) 0 50% no-repeat; /* LTR */
 }
-
-/* line 2079, ../sass/drupal7-reference.scss */
 .module-help {
-  margin-left: 1em;
-  /* LTR */
-  float: right;
-  /* LTR */
+  margin-left: 1em; /* LTR */
+  float: right; /* LTR */
 }
 
 /**
  * Status report.
  */
-/* line 2087, ../sass/drupal7-reference.scss */
 table.system-status-report td {
   padding: 6px;
   vertical-align: middle;
 }
-
-/* line 2091, ../sass/drupal7-reference.scss */
 table.system-status-report tr.merge-up td {
-  padding: 0 6px 8px 28px;
-  /* LTR */
+  padding: 0 6px 8px 28px; /* LTR */
 }
-
-/* line 2094, ../sass/drupal7-reference.scss */
 table.system-status-report td.status-icon {
   width: 16px;
-  padding-right: 0;
-  /* LTR */
+  padding-right: 0; /* LTR */
 }
-
-/* line 2098, ../sass/drupal7-reference.scss */
 table.system-status-report td.status-icon div {
   background-repeat: no-repeat;
   height: 16px;
   width: 16px;
 }
-
-/* line 2103, ../sass/drupal7-reference.scss */
 table.system-status-report tr.error td.status-icon div {
   background-image: url(../../misc/message-16-error.png);
 }
-
-/* line 2106, ../sass/drupal7-reference.scss */
 table.system-status-report tr.warning td.status-icon div {
   background-image: url(../../misc/message-16-warning.png);
 }
-
-/* line 2109, ../sass/drupal7-reference.scss */
 tr.merge-down,
 tr.merge-down td {
   border-bottom-width: 0 !important;
 }
-
-/* line 2113, ../sass/drupal7-reference.scss */
 tr.merge-up,
 tr.merge-up td {
   border-top-width: 0 !important;
@@ -2737,19 +2118,14 @@ tr.merge-up td {
 /**
  * Theme settings.
  */
-/* line 2121, ../sass/drupal7-reference.scss */
 .theme-settings-left {
   float: left;
   width: 49%;
 }
-
-/* line 2125, ../sass/drupal7-reference.scss */
 .theme-settings-right {
   float: right;
   width: 49%;
 }
-
-/* line 2129, ../sass/drupal7-reference.scss */
 .theme-settings-bottom {
   clear: both;
 }
@@ -2757,44 +2133,28 @@ tr.merge-up td {
 /**
  * Appearance page.
  */
-/* line 2136, ../sass/drupal7-reference.scss */
 table.screenshot {
-  margin-right: 1em;
-  /* LTR */
+  margin-right: 1em; /* LTR */
 }
-
-/* line 2139, ../sass/drupal7-reference.scss */
 .theme-info h2 {
   margin-bottom: 0;
 }
-
-/* line 2142, ../sass/drupal7-reference.scss */
 .theme-info p {
   margin-top: 0;
 }
-
-/* line 2145, ../sass/drupal7-reference.scss */
 .system-themes-list {
   margin-bottom: 20px;
 }
-
-/* line 2148, ../sass/drupal7-reference.scss */
 .system-themes-list-disabled {
   border-top: 1px solid #cdcdcd;
   padding-top: 20px;
 }
-
-/* line 2152, ../sass/drupal7-reference.scss */
 .system-themes-list h2 {
   margin: 0;
 }
-
-/* line 2155, ../sass/drupal7-reference.scss */
 .theme-selector {
   padding-top: 20px;
 }
-
-/* line 2158, ../sass/drupal7-reference.scss */
 .theme-selector .screenshot,
 .theme-selector .no-screenshot {
   border: 1px solid #e0e0d8;
@@ -2805,101 +2165,62 @@ table.screenshot {
   line-height: 219px;
   text-align: center;
 }
-
-/* line 2168, ../sass/drupal7-reference.scss */
 .theme-default .screenshot {
   border: 1px solid #aaa;
 }
-
-/* line 2171, ../sass/drupal7-reference.scss */
 .system-themes-list-enabled .theme-selector .screenshot,
 .system-themes-list-enabled .theme-selector .no-screenshot {
-  float: left;
-  /* LTR */
-  margin: 0 20px 0 0;
-  /* LTR */
+  float: left; /* LTR */
+  margin: 0 20px 0 0; /* LTR */
 }
-
-/* line 2176, ../sass/drupal7-reference.scss */
 .system-themes-list-disabled .theme-selector .screenshot,
 .system-themes-list-disabled .theme-selector .no-screenshot {
   width: 194px;
   height: 144px;
   line-height: 144px;
 }
-
-/* line 2182, ../sass/drupal7-reference.scss */
 .theme-selector h3 {
   font-weight: normal;
 }
-
-/* line 2185, ../sass/drupal7-reference.scss */
 .theme-default h3 {
   font-weight: bold;
 }
-
-/* line 2188, ../sass/drupal7-reference.scss */
 .system-themes-list-enabled .theme-selector h3 {
   margin-top: 0;
 }
-
-/* line 2191, ../sass/drupal7-reference.scss */
 .system-themes-list-disabled .theme-selector {
   width: 300px;
-  float: left;
-  /* LTR */
-  padding: 20px 20px 20px 0;
-  /* LTR */
+  float: left; /* LTR */
+  padding: 20px 20px 20px 0; /* LTR */
 }
-
-/* line 2196, ../sass/drupal7-reference.scss */
 .system-themes-list-enabled .theme-info {
   max-width: 940px;
 }
-
-/* line 2199, ../sass/drupal7-reference.scss */
 .system-themes-list-disabled .theme-info {
   min-height: 170px;
 }
-
-/* line 2202, ../sass/drupal7-reference.scss */
 .theme-selector .incompatible {
   margin-top: 10px;
   font-weight: bold;
 }
-
-/* line 2206, ../sass/drupal7-reference.scss */
 .theme-selector .operations {
   margin: 10px 0 0 0;
   padding: 0;
 }
-
-/* line 2210, ../sass/drupal7-reference.scss */
 .theme-selector .operations li {
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
   margin: 0;
   padding: 0 0.7em;
   list-style-type: none;
-  border-right: 1px solid #cdcdcd;
-  /* LTR */
+  border-right: 1px solid #cdcdcd;  /* LTR */
 }
-
-/* line 2217, ../sass/drupal7-reference.scss */
 .theme-selector .operations li.last {
-  padding: 0 0 0 0.7em;
-  /* LTR */
-  border-right: none;
-  /* LTR */
+  padding: 0 0 0 0.7em; /* LTR */
+  border-right: none; /* LTR */
 }
-
-/* line 2221, ../sass/drupal7-reference.scss */
 .theme-selector .operations li.first {
-  padding: 0 0.7em 0 0;
-  /* LTR */
+  padding: 0 0.7em 0 0; /* LTR */
 }
-
-/* line 2224, ../sass/drupal7-reference.scss */
 #system-themes-admin-form {
   clear: left;
 }
@@ -2907,72 +2228,53 @@ table.screenshot {
 /**
  * Exposed filters.
  */
-/* line 2231, ../sass/drupal7-reference.scss */
 .exposed-filters .filters {
-  float: left;
-  /* LTR */
-  margin-right: 1em;
-  /* LTR */
-  width: 25em;
-  /* IE6 */
+  float: left; /* LTR */
+  margin-right: 1em; /* LTR */
+  width: 25em; /* IE6 */
 }
-
-/* line 2236, ../sass/drupal7-reference.scss */
 .exposed-filters .form-item {
   margin: 0 0 0.1em 0;
   padding: 0;
 }
-
-/* line 2240, ../sass/drupal7-reference.scss */
 .exposed-filters .form-item label {
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
   font-weight: normal;
   width: 10em;
 }
-
-/* line 2245, ../sass/drupal7-reference.scss */
 .exposed-filters .form-select {
   width: 14em;
 }
-
 /* Current filters */
-/* line 2249, ../sass/drupal7-reference.scss */
 .exposed-filters .current-filters {
   margin-bottom: 1em;
 }
-
-/* line 2252, ../sass/drupal7-reference.scss */
 .exposed-filters .current-filters .placeholder {
   font-style: normal;
   font-weight: bold;
 }
-
-/* line 2256, ../sass/drupal7-reference.scss */
 .exposed-filters .additional-filters {
-  float: left;
-  /* LTR */
-  margin-right: 1em;
-  /* LTR */
+  float: left; /* LTR */
+  margin-right: 1em; /* LTR */
 }
+
 
 /*
  * modules/system/system.base-rtl.css
  */
+
 /**
  * @file
  * Generic theme-independent base styles.
  */
+
 /**
  * Autocomplete.
  */
 /* Animated throbber */
-/* line 2275, ../sass/drupal7-reference.scss */
 html.js input.form-autocomplete {
   background-position: 0% 2px;
 }
-
-/* line 2278, ../sass/drupal7-reference.scss */
 html.js input.throbbing {
   background-position: 0% -18px;
 }
@@ -2980,22 +2282,15 @@ html.js input.throbbing {
 /**
  * Progress bar.
  */
-/* line 2285, ../sass/drupal7-reference.scss */
 .progress .percentage {
   float: left;
 }
-
-/* line 2288, ../sass/drupal7-reference.scss */
 .progress-disabled {
   float: right;
 }
-
-/* line 2291, ../sass/drupal7-reference.scss */
 .ajax-progress {
   float: right;
 }
-
-/* line 2294, ../sass/drupal7-reference.scss */
 .ajax-progress .throbber {
   float: right;
 }
@@ -3003,81 +2298,67 @@ html.js input.throbbing {
 /**
  * TableDrag behavior.
  */
-/* line 2301, ../sass/drupal7-reference.scss */
 .draggable a.tabledrag-handle {
   float: right;
   margin: -0.4em -0.5em -0.4em 0;
   padding: 0.42em 0.5em 0.42em 1.5em;
 }
-
-/* line 2306, ../sass/drupal7-reference.scss */
 div.indentation {
   float: right;
   margin: -0.4em -0.4em -0.4em 0.2em;
   padding: 0.42em 0.6em 0.42em 0;
 }
-
-/* line 2311, ../sass/drupal7-reference.scss */
 div.tree-child,
 div.tree-child-last {
   background-position: -65px center;
 }
-
-/* line 2315, ../sass/drupal7-reference.scss */
 .tabledrag-toggle-weight-wrapper {
   text-align: left;
 }
 
+
+
 /*
  * modules/system/system.base.css
  */
+
 /**
  * @file
  * Generic theme-independent base styles.
  */
+
 /**
  * Autocomplete.
  *
  * @see autocomplete.js
  */
 /* Suggestion list */
-/* line 2336, ../sass/drupal7-reference.scss */
 #autocomplete {
   border: 1px solid;
   overflow: hidden;
   position: absolute;
   z-index: 100;
 }
-
-/* line 2342, ../sass/drupal7-reference.scss */
 #autocomplete ul {
   list-style: none;
   list-style-image: none;
   margin: 0;
   padding: 0;
 }
-
-/* line 2348, ../sass/drupal7-reference.scss */
 #autocomplete li {
   background: #fff;
   color: #000;
   cursor: default;
   white-space: pre;
 }
-
 /* Animated throbber */
-/* line 2355, ../sass/drupal7-reference.scss */
 html.js input.form-autocomplete {
   background-image: url(../../misc/throbber.gif);
-  background-position: 100% 2px;
-  /* LTR */
+  background-position: 100% 2px; /* LTR */
   background-repeat: no-repeat;
 }
-
-/* line 2360, ../sass/drupal7-reference.scss */
 html.js input.throbbing {
-  background-position: 100% -18px;
-  /* LTR */
+  background-position: 100% -18px; /* LTR */
 }
 
 /**
@@ -3085,25 +2366,18 @@ html.js input.throbbing {
  *
  * @see collapse.js
  */
-/* line 2369, ../sass/drupal7-reference.scss */
 html.js fieldset.collapsed {
   border-bottom-width: 0;
   border-left-width: 0;
   border-right-width: 0;
   height: 1em;
 }
-
-/* line 2375, ../sass/drupal7-reference.scss */
 html.js fieldset.collapsed .fieldset-wrapper {
   display: none;
 }
-
-/* line 2378, ../sass/drupal7-reference.scss */
 fieldset.collapsible {
   position: relative;
 }
-
-/* line 2381, ../sass/drupal7-reference.scss */
 fieldset.collapsible .fieldset-legend {
   display: block;
 }
@@ -3113,7 +2387,6 @@ fieldset.collapsible .fieldset-legend {
  *
  * @see textarea.js
  */
-/* line 2390, ../sass/drupal7-reference.scss */
 .form-textarea-wrapper textarea {
   display: block;
   margin: 0;
@@ -3122,8 +2395,6 @@ fieldset.collapsible .fieldset-legend {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-/* line 2398, ../sass/drupal7-reference.scss */
 .resizable-textarea .grippie {
   background: #eee url(../../misc/grippie.png) no-repeat center 2px;
   border: 1px solid #ddd;
@@ -3138,75 +2409,47 @@ fieldset.collapsible .fieldset-legend {
  *
  * @see tabledrag.js
  */
-/* line 2412, ../sass/drupal7-reference.scss */
 body.drag {
   cursor: move;
 }
-
-/* line 2415, ../sass/drupal7-reference.scss */
 .draggable a.tabledrag-handle {
   cursor: move;
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
   height: 1.7em;
-  margin: -0.4em 0 -0.4em -0.5em;
-  /* LTR */
-  padding: 0.42em 1.5em 0.42em 0.5em;
-  /* LTR */
+  margin: -0.4em 0 -0.4em -0.5em; /* LTR */
+  padding: 0.42em 1.5em 0.42em 0.5em; /* LTR */
   text-decoration: none;
 }
-
-/* line 2423, ../sass/drupal7-reference.scss */
 a.tabledrag-handle:hover {
   text-decoration: none;
 }
-
-/* line 2426, ../sass/drupal7-reference.scss */
 a.tabledrag-handle .handle {
   background: url(../../misc/draggable.png) no-repeat 0 0;
   height: 13px;
   margin-top: 4px;
   width: 13px;
 }
-
-/* line 2432, ../sass/drupal7-reference.scss */
 a.tabledrag-handle-hover .handle {
   background-position: 0 -20px;
 }
-
-/* line 2435, ../sass/drupal7-reference.scss */
 div.indentation {
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
   height: 1.7em;
-  margin: -0.4em 0.2em -0.4em -0.4em;
-  /* LTR */
-  padding: 0.42em 0 0.42em 0.6em;
-  /* LTR */
+  margin: -0.4em 0.2em -0.4em -0.4em; /* LTR */
+  padding: 0.42em 0 0.42em 0.6em; /* LTR */
   width: 20px;
 }
-
-/* line 2442, ../sass/drupal7-reference.scss */
 div.tree-child {
-  background: url(../../misc/tree.png) no-repeat 11px center;
-  /* LTR */
+  background: url(../../misc/tree.png) no-repeat 11px center; /* LTR */
 }
-
-/* line 2445, ../sass/drupal7-reference.scss */
 div.tree-child-last {
-  background: url(../../misc/tree-bottom.png) no-repeat 11px center;
-  /* LTR */
+  background: url(../../misc/tree-bottom.png) no-repeat 11px center; /* LTR */
 }
-
-/* line 2448, ../sass/drupal7-reference.scss */
 div.tree-child-horizontal {
   background: url(../../misc/tree.png) no-repeat -11px center;
 }
-
-/* line 2451, ../sass/drupal7-reference.scss */
 .tabledrag-toggle-weight-wrapper {
-  text-align: right;
-  /* LTR */
+  text-align: right; /* LTR */
 }
 
 /**
@@ -3214,7 +2457,6 @@ div.tree-child-horizontal {
  *
  * @see tableheader.js
  */
-/* line 2460, ../sass/drupal7-reference.scss */
 table.sticky-header {
   background-color: #fff;
   margin-top: 0;
@@ -3226,54 +2468,35 @@ table.sticky-header {
  * @see progress.js
  */
 /* Bar */
-/* line 2471, ../sass/drupal7-reference.scss */
 .progress .bar {
   background-color: #fff;
   border: 1px solid;
 }
-
-/* line 2475, ../sass/drupal7-reference.scss */
 .progress .filled {
   background-color: #000;
   height: 1.5em;
   width: 5px;
 }
-
-/* line 2480, ../sass/drupal7-reference.scss */
 .progress .percentage {
-  float: right;
-  /* LTR */
+  float: right; /* LTR */
 }
-
-/* line 2483, ../sass/drupal7-reference.scss */
 .progress-disabled {
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
 }
-
 /* Throbber */
-/* line 2487, ../sass/drupal7-reference.scss */
 .ajax-progress {
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
 }
-
-/* line 2490, ../sass/drupal7-reference.scss */
 .ajax-progress .throbber {
   background: transparent url(../../misc/throbber.gif) no-repeat 0px -18px;
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
   height: 15px;
   margin: 2px;
   width: 15px;
 }
-
-/* line 2497, ../sass/drupal7-reference.scss */
 tr .ajax-progress .throbber {
   margin: 0 2px;
 }
-
-/* line 2500, ../sass/drupal7-reference.scss */
 .ajax-progress-bar {
   width: 16em;
 }
@@ -3281,14 +2504,11 @@ tr .ajax-progress .throbber {
 /**
  * Inline items.
  */
-/* line 2507, ../sass/drupal7-reference.scss */
 .container-inline div,
 .container-inline label {
   display: inline;
 }
-
 /* Fieldset contents always need to be rendered as block. */
-/* line 2512, ../sass/drupal7-reference.scss */
 .container-inline .fieldset-wrapper {
   display: block;
 }
@@ -3296,7 +2516,6 @@ tr .ajax-progress .throbber {
 /**
  * Prevent text wrapping.
  */
-/* line 2519, ../sass/drupal7-reference.scss */
 .nowrap {
   white-space: nowrap;
 }
@@ -3305,7 +2524,6 @@ tr .ajax-progress .throbber {
  * For anything you want to hide on page load when JS is enabled, so
  * that you can use the JS to control visibility and avoid flicker.
  */
-/* line 2527, ../sass/drupal7-reference.scss */
 html.js .js-hide {
   display: none;
 }
@@ -3318,7 +2536,6 @@ html.js .js-hide {
  * from a user. The effect of this class can be toggled with the jQuery show()
  * and hide() functions.
  */
-/* line 2539, ../sass/drupal7-reference.scss */
 .element-hidden {
   display: none;
 }
@@ -3331,11 +2548,9 @@ html.js .js-hide {
  * manner should be kept concise, to avoid unnecessary burden on the user.
  * "!important" is used to prevent unintentional overrides.
  */
-/* line 2551, ../sass/drupal7-reference.scss */
 .element-invisible {
   position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 */
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
 
@@ -3343,7 +2558,6 @@ html.js .js-hide {
  * The .element-focusable class extends the .element-invisible class to allow
  * the element to be focusable when navigated to via the keyboard.
  */
-/* line 2561, ../sass/drupal7-reference.scss */
 .element-invisible.element-focusable:active,
 .element-invisible.element-focusable:focus {
   position: static !important;
@@ -3355,7 +2569,6 @@ html.js .js-hide {
  *
  * @see http://perishablepress.com/press/2009/12/06/new-clearfix-hack
  */
-/* line 2572, ../sass/drupal7-reference.scss */
 .clearfix:after {
   content: ".";
   display: block;
@@ -3363,26 +2576,23 @@ html.js .js-hide {
   clear: both;
   visibility: hidden;
 }
-
 /* IE6 */
-/* line 2580, ../sass/drupal7-reference.scss */
 * html .clearfix {
   height: 1%;
 }
-
 /* IE7 */
-/* line 2584, ../sass/drupal7-reference.scss */
 *:first-child + html .clearfix {
   min-height: 1%;
 }
 
+
 /*
  * modules/system/system.maintenance.css
  */
+
 /**
  * Update styles
  */
-/* line 2596, ../sass/drupal7-reference.scss */
 #update-results {
   margin-top: 3em;
   padding: 0.25em;
@@ -3390,24 +2600,16 @@ html.js .js-hide {
   background: #eee;
   font-size: smaller;
 }
-
-/* line 2603, ../sass/drupal7-reference.scss */
 #update-results h2 {
   margin-top: 0.25em;
 }
-
-/* line 2606, ../sass/drupal7-reference.scss */
 #update-results h4 {
   margin-bottom: 0.25em;
 }
-
-/* line 2609, ../sass/drupal7-reference.scss */
 #update-results li.none {
   color: #888;
   font-style: italic;
 }
-
-/* line 2613, ../sass/drupal7-reference.scss */
 #update-results li.failure strong {
   color: #b63300;
 }
@@ -3415,23 +2617,16 @@ html.js .js-hide {
 /**
  * Authorize.php styles
  */
-/* line 2620, ../sass/drupal7-reference.scss */
 .connection-settings-update-filetransfer-default-wrapper {
   float: left;
 }
-
-/* line 2623, ../sass/drupal7-reference.scss */
 #edit-submit-connection {
   clear: both;
 }
-
-/* line 2626, ../sass/drupal7-reference.scss */
 .filetransfer {
   display: none;
   clear: both;
 }
-
-/* line 2630, ../sass/drupal7-reference.scss */
 #edit-connection-settings-change-connection-type {
   margin: 2.6em 0.5em 0em 1em;
 }
@@ -3439,7 +2634,6 @@ html.js .js-hide {
 /**
  * Installation task list
  */
-/* line 2637, ../sass/drupal7-reference.scss */
 ol.task-list li.active {
   font-weight: bold;
 }
@@ -3447,34 +2641,29 @@ ol.task-list li.active {
 /**
  * Installation clean URLs
  */
-/* line 2644, ../sass/drupal7-reference.scss */
 #clean-url.install {
   display: none;
 }
 
+
 /*
  * modules/system/system.menus-rtl.css
  */
+
 /**
  * @file
  * RTL styles for menus and navigation markup.
  */
-/* line 2658, ../sass/drupal7-reference.scss */
-ul.menu {
-  text-align: right;
-}
 
-/* line 2661, ../sass/drupal7-reference.scss */
+ul.menu {
+  text-align:right;
+}
 ul.menu li {
   margin: 0 0.5em 0 0;
 }
-
-/* line 2664, ../sass/drupal7-reference.scss */
 ul li.collapsed {
   list-style-image: url(../../misc/menu-collapsed-rtl.png);
 }
-
-/* line 2667, ../sass/drupal7-reference.scss */
 li.expanded,
 li.collapsed,
 li.leaf {
@@ -3484,18 +2673,13 @@ li.leaf {
 /**
  * Markup generated by theme_menu_local_tasks().
  */
-/* line 2676, ../sass/drupal7-reference.scss */
 ul.primary {
   padding: 0 1em 0 0;
 }
-
-/* line 2679, ../sass/drupal7-reference.scss */
 ul.primary li a {
   margin-right: 5px;
   margin-left: 0.5em;
 }
-
-/* line 2683, ../sass/drupal7-reference.scss */
 ul.secondary li {
   border-left: 1px solid #ccc;
   border-right: none;
@@ -3503,64 +2687,48 @@ ul.secondary li {
   padding: 0 1em;
 }
 
+
 /*
  * modules/system/system.menus.css
  */
+
 /**
  * @file
  * Styles for menus and navigation markup.
  */
+
 /**
  * Markup generated by theme_menu_tree().
  */
-/* line 2703, ../sass/drupal7-reference.scss */
 ul.menu {
   border: none;
   list-style: none;
-  text-align: left;
-  /* LTR */
+  text-align: left; /* LTR */
 }
-
-/* line 2708, ../sass/drupal7-reference.scss */
 ul.menu li {
-  margin: 0 0 0 0.5em;
-  /* LTR */
+  margin: 0 0 0 0.5em; /* LTR */
 }
-
-/* line 2711, ../sass/drupal7-reference.scss */
 ul li.expanded {
   list-style-image: url(../../misc/menu-expanded.png);
   list-style-type: circle;
 }
-
-/* line 2715, ../sass/drupal7-reference.scss */
 ul li.collapsed {
-  list-style-image: url(../../misc/menu-collapsed.png);
-  /* LTR */
+  list-style-image: url(../../misc/menu-collapsed.png); /* LTR */
   list-style-type: disc;
 }
-
-/* line 2719, ../sass/drupal7-reference.scss */
 ul li.leaf {
   list-style-image: url(../../misc/menu-leaf.png);
   list-style-type: square;
 }
-
-/* line 2723, ../sass/drupal7-reference.scss */
 li.expanded,
 li.collapsed,
 li.leaf {
-  padding: 0.2em 0.5em 0 0;
-  /* LTR */
+  padding: 0.2em 0.5em 0 0; /* LTR */
   margin: 0;
 }
-
-/* line 2729, ../sass/drupal7-reference.scss */
 li a.active {
   color: #000;
 }
-
-/* line 2732, ../sass/drupal7-reference.scss */
 td.menu-disabled {
   background: #ccc;
 }
@@ -3568,14 +2736,11 @@ td.menu-disabled {
 /**
  * Markup generated by theme_links().
  */
-/* line 2739, ../sass/drupal7-reference.scss */
 ul.inline,
 ul.links.inline {
   display: inline;
   padding-left: 0;
 }
-
-/* line 2744, ../sass/drupal7-reference.scss */
 ul.inline li {
   display: inline;
   list-style-type: none;
@@ -3585,7 +2750,6 @@ ul.inline li {
 /**
  * Markup generated by theme_breadcrumb().
  */
-/* line 2753, ../sass/drupal7-reference.scss */
 .breadcrumb {
   padding-bottom: 0.5em;
 }
@@ -3593,7 +2757,6 @@ ul.inline li {
 /**
  * Markup generated by theme_menu_local_tasks().
  */
-/* line 2760, ../sass/drupal7-reference.scss */
 ul.primary {
   border-bottom: 1px solid #bbb;
   border-collapse: collapse;
@@ -3601,187 +2764,149 @@ ul.primary {
   line-height: normal;
   list-style: none;
   margin: 5px;
-  padding: 0 0 0 1em;
-  /* LTR */
+  padding: 0 0 0 1em; /* LTR */
   white-space: nowrap;
 }
-
-/* line 2770, ../sass/drupal7-reference.scss */
 ul.primary li {
   display: inline;
 }
-
-/* line 2773, ../sass/drupal7-reference.scss */
 ul.primary li a {
   background-color: #ddd;
   border-color: #bbb;
   border-style: solid solid none solid;
   border-width: 1px;
   height: auto;
-  margin-right: 0.5em;
-  /* LTR */
+  margin-right: 0.5em; /* LTR */
   padding: 0 1em;
   text-decoration: none;
 }
-
-/* line 2783, ../sass/drupal7-reference.scss */
 ul.primary li.active a {
   background-color: #fff;
   border: 1px solid #bbb;
   border-bottom: 1px solid #fff;
 }
-
-/* line 2788, ../sass/drupal7-reference.scss */
 ul.primary li a:hover {
   background-color: #eee;
   border-color: #ccc;
   border-bottom-color: #eee;
 }
-
-/* line 2793, ../sass/drupal7-reference.scss */
 ul.secondary {
   border-bottom: 1px solid #bbb;
   padding: 0.5em 1em;
   margin: 5px;
 }
-
-/* line 2798, ../sass/drupal7-reference.scss */
 ul.secondary li {
-  border-right: 1px solid #ccc;
-  /* LTR */
+  border-right: 1px solid #ccc; /* LTR */
   display: inline;
   padding: 0 1em;
 }
-
-/* line 2803, ../sass/drupal7-reference.scss */
 ul.secondary a {
   padding: 0;
   text-decoration: none;
 }
-
-/* line 2807, ../sass/drupal7-reference.scss */
 ul.secondary a.active {
   border-bottom: 4px solid #999;
 }
 
+
 /*
  * modules/system/system.messages-rtl.css
  */
+
 /**
  * @file
  * RTL Styles for system messages.
  */
-/* line 2821, ../sass/drupal7-reference.scss */
+
 div.messages {
   background-position: 99% 8px;
   padding: 10px 50px 10px 10px;
 }
-
-/* line 2825, ../sass/drupal7-reference.scss */
 div.messages ul {
   margin: 0 1em 0 0;
 }
 
+
 /*
  * modules/system/system.messages.css
  */
+
 /**
  * @file
  * Styles for system messages.
  */
-/* line 2839, ../sass/drupal7-reference.scss */
+
 div.messages {
-  background-position: 8px 8px;
-  /* LTR */
+  background-position: 8px 8px; /* LTR */
   background-repeat: no-repeat;
   border: 1px solid;
   margin: 6px 0;
-  padding: 10px 10px 10px 50px;
-  /* LTR */
+  padding: 10px 10px 10px 50px; /* LTR */
 }
 
-/* line 2847, ../sass/drupal7-reference.scss */
 div.status {
   background-image: url(../../misc/message-24-ok.png);
   border-color: #be7;
 }
-
-/* line 2851, ../sass/drupal7-reference.scss */
 div.status,
 .ok {
   color: #234600;
 }
-
-/* line 2855, ../sass/drupal7-reference.scss */
 div.status,
 table tr.ok {
   background-color: #f8fff0;
 }
 
-/* line 2860, ../sass/drupal7-reference.scss */
 div.warning {
   background-image: url(../../misc/message-24-warning.png);
   border-color: #ed5;
 }
-
-/* line 2864, ../sass/drupal7-reference.scss */
 div.warning,
 .warning {
   color: #840;
 }
-
-/* line 2868, ../sass/drupal7-reference.scss */
 div.warning,
 table tr.warning {
   background-color: #fffce5;
 }
 
-/* line 2873, ../sass/drupal7-reference.scss */
 div.error {
   background-image: url(../../misc/message-24-error.png);
   border-color: #ed541d;
 }
-
-/* line 2877, ../sass/drupal7-reference.scss */
 div.error,
 .error {
   color: #8c2e0b;
 }
-
-/* line 2881, ../sass/drupal7-reference.scss */
 div.error,
 table tr.error {
   background-color: #fef5f1;
 }
-
-/* line 2885, ../sass/drupal7-reference.scss */
 div.error p.error {
   color: #333;
 }
 
-/* line 2889, ../sass/drupal7-reference.scss */
 div.messages ul {
-  margin: 0 0 0 1em;
-  /* LTR */
+  margin: 0 0 0 1em; /* LTR */
   padding: 0;
 }
-
-/* line 2893, ../sass/drupal7-reference.scss */
 div.messages ul li {
   list-style-image: none;
 }
 
+
 /*
  * modules/system/system.theme-rtl.css
  */
+
 /**
  * @file
  * RTL styles for common markup.
  */
+
 /**
  * HTML elements.
  */
-/* line 2910, ../sass/drupal7-reference.scss */
 th {
   text-align: right;
   padding-left: 1em;
@@ -3791,7 +2916,6 @@ th {
 /**
  * Markup generated by theme_item_list().
  */
-/* line 2919, ../sass/drupal7-reference.scss */
 .item-list ul li {
   margin: 0 1.5em 0.25em 0;
 }
@@ -3799,7 +2923,6 @@ th {
 /**
  * Markup generated by theme_more_link().
  */
-/* line 2926, ../sass/drupal7-reference.scss */
 .more-link {
   text-align: left;
 }
@@ -3807,12 +2930,9 @@ th {
 /**
  * Markup generated by theme_more_help_link().
  */
-/* line 2933, ../sass/drupal7-reference.scss */
 .more-help-link {
   text-align: left;
 }
-
-/* line 2936, ../sass/drupal7-reference.scss */
 .more-help-link a {
   background-position: 100% 50%;
   padding: 1px 20px 1px 0;
@@ -3821,72 +2941,55 @@ th {
 /**
  * Collapsible fieldsets.
  */
-/* line 2944, ../sass/drupal7-reference.scss */
 html.js fieldset.collapsible .fieldset-legend {
   background-position: 98% 75%;
   padding-left: 0;
   padding-right: 15px;
 }
-
-/* line 2949, ../sass/drupal7-reference.scss */
 html.js fieldset.collapsed .fieldset-legend {
   background-image: url(../../misc/menu-collapsed-rtl.png);
   background-position: 98% 50%;
 }
 
+
 /*
  * modules/system/system.theme.css
  */
+
 /**
  * @file
  * Basic styling for common markup.
  */
+
 /**
  * HTML elements.
  */
-/* line 2967, ../sass/drupal7-reference.scss */
 fieldset {
   margin-bottom: 1em;
   padding: 0.5em;
 }
-
-/* line 2971, ../sass/drupal7-reference.scss */
 form {
   margin: 0;
   padding: 0;
 }
-
-/* line 2975, ../sass/drupal7-reference.scss */
 hr {
   border: 1px solid gray;
   height: 1px;
 }
-
-/* line 2979, ../sass/drupal7-reference.scss */
 img {
   border: 0;
 }
-
-/* line 2982, ../sass/drupal7-reference.scss */
 table {
   border-collapse: collapse;
 }
-
-/* line 2985, ../sass/drupal7-reference.scss */
 th {
   border-bottom: 3px solid #ccc;
-  padding-right: 1em;
-  /* LTR */
-  text-align: left;
-  /* LTR */
+  padding-right: 1em; /* LTR */
+  text-align: left; /* LTR */
 }
-
-/* line 2990, ../sass/drupal7-reference.scss */
 tbody {
   border-top: 1px solid #ccc;
 }
-
-/* line 2993, ../sass/drupal7-reference.scss */
 tr.even,
 tr.odd {
   background-color: #eee;
@@ -3897,12 +3000,9 @@ tr.odd {
 /**
  * Markup generated by theme_tablesort_indicator().
  */
-/* line 3003, ../sass/drupal7-reference.scss */
 th.active img {
   display: inline;
 }
-
-/* line 3006, ../sass/drupal7-reference.scss */
 td.active {
   background-color: #ddd;
 }
@@ -3910,85 +3010,60 @@ td.active {
 /**
  * Markup generated by theme_item_list().
  */
-/* line 3013, ../sass/drupal7-reference.scss */
 .item-list .title {
   font-weight: bold;
 }
-
-/* line 3016, ../sass/drupal7-reference.scss */
 .item-list ul {
   margin: 0 0 0.75em 0;
   padding: 0;
 }
-
-/* line 3020, ../sass/drupal7-reference.scss */
 .item-list ul li {
-  margin: 0 0 0.25em 1.5em;
-  /* LTR */
+  margin: 0 0 0.25em 1.5em; /* LTR */
   padding: 0;
 }
 
 /**
  * Markup generated by Form API.
  */
-/* line 3028, ../sass/drupal7-reference.scss */
 .form-item,
 .form-actions {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-
-/* line 3033, ../sass/drupal7-reference.scss */
 tr.odd .form-item,
 tr.even .form-item {
   margin-top: 0;
   margin-bottom: 0;
   white-space: nowrap;
 }
-
-/* line 3039, ../sass/drupal7-reference.scss */
 .form-item .description {
   font-size: 0.85em;
 }
-
-/* line 3042, ../sass/drupal7-reference.scss */
 label {
   display: block;
   font-weight: bold;
 }
-
-/* line 3046, ../sass/drupal7-reference.scss */
 label.option {
   display: inline;
   font-weight: normal;
 }
-
-/* line 3050, ../sass/drupal7-reference.scss */
 .form-checkboxes .form-item,
 .form-radios .form-item {
   margin-top: 0.4em;
   margin-bottom: 0.4em;
 }
-
-/* line 3055, ../sass/drupal7-reference.scss */
 .form-type-radio .description,
 .form-type-checkbox .description {
   margin-left: 2.4em;
 }
-
-/* line 3059, ../sass/drupal7-reference.scss */
 input.form-checkbox,
 input.form-radio {
   vertical-align: middle;
 }
-
-/* line 3063, ../sass/drupal7-reference.scss */
 .marker,
 .form-required {
   color: #f00;
 }
-
-/* line 3067, ../sass/drupal7-reference.scss */
 .form-item input.error,
 .form-item textarea.error,
 .form-item select.error {
@@ -3998,7 +3073,6 @@ input.form-radio {
 /**
  * Inline items.
  */
-/* line 3076, ../sass/drupal7-reference.scss */
 .container-inline .form-actions,
 .container-inline.form-actions {
   margin-top: 0;
@@ -4008,47 +3082,34 @@ input.form-radio {
 /**
  * Markup generated by theme_more_link().
  */
-/* line 3085, ../sass/drupal7-reference.scss */
 .more-link {
-  text-align: right;
-  /* LTR */
+  text-align: right; /* LTR */
 }
 
 /**
  * Markup generated by theme_more_help_link().
  */
-/* line 3092, ../sass/drupal7-reference.scss */
 .more-help-link {
-  text-align: right;
-  /* LTR */
+  text-align: right; /* LTR */
 }
-
-/* line 3095, ../sass/drupal7-reference.scss */
 .more-help-link a {
-  background: url(../../misc/help.png) 0 50% no-repeat;
-  /* LTR */
-  padding: 1px 0 1px 20px;
-  /* LTR */
+  background: url(../../misc/help.png) 0 50% no-repeat; /* LTR */
+  padding: 1px 0 1px 20px; /* LTR */
 }
 
 /**
  * Markup generated by theme_pager().
  */
-/* line 3103, ../sass/drupal7-reference.scss */
 .item-list .pager {
   clear: both;
   text-align: center;
 }
-
-/* line 3107, ../sass/drupal7-reference.scss */
 .item-list .pager li {
   background-image: none;
   display: inline;
   list-style-type: none;
   padding: 0.5em;
 }
-
-/* line 3113, ../sass/drupal7-reference.scss */
 .pager-current {
   font-weight: bold;
 }
@@ -4059,7 +3120,6 @@ input.form-radio {
  * @see autocomplete.js
  */
 /* Suggestion list */
-/* line 3123, ../sass/drupal7-reference.scss */
 #autocomplete li.selected {
   background: #0072b9;
   color: #fff;
@@ -4070,23 +3130,14 @@ input.form-radio {
  *
  * @see collapse.js
  */
-/* line 3133, ../sass/drupal7-reference.scss */
 html.js fieldset.collapsible .fieldset-legend {
-  background: url(../../misc/menu-expanded.png) 5px 65% no-repeat;
-  /* LTR */
-  padding-left: 15px;
-  /* LTR */
+  background: url(../../misc/menu-expanded.png) 5px 65% no-repeat; /* LTR */
+  padding-left: 15px; /* LTR */
 }
-
-/* line 3137, ../sass/drupal7-reference.scss */
 html.js fieldset.collapsed .fieldset-legend {
-  background-image: url(../../misc/menu-collapsed.png);
-  /* LTR */
-  background-position: 5px 50%;
-  /* LTR */
+  background-image: url(../../misc/menu-collapsed.png); /* LTR */
+  background-position: 5px 50%; /* LTR */
 }
-
-/* line 3141, ../sass/drupal7-reference.scss */
 .fieldset-legend span.summary {
   color: #999;
   font-size: 0.9em;
@@ -4098,22 +3149,15 @@ html.js fieldset.collapsed .fieldset-legend {
  *
  * @see tabledrag.js
  */
-/* line 3152, ../sass/drupal7-reference.scss */
 tr.drag {
   background-color: #fffff0;
 }
-
-/* line 3155, ../sass/drupal7-reference.scss */
 tr.drag-previous {
   background-color: #ffd;
 }
-
-/* line 3158, ../sass/drupal7-reference.scss */
 .tabledrag-toggle-weight {
   font-size: 0.9em;
 }
-
-/* line 3161, ../sass/drupal7-reference.scss */
 body div.tabledrag-changed-warning {
   margin-bottom: 0.5em;
 }
@@ -4123,12 +3167,9 @@ body div.tabledrag-changed-warning {
  *
  * @see tableselect.js
 */
-/* line 3170, ../sass/drupal7-reference.scss */
 tr.selected td {
   background: #ffc;
 }
-
-/* line 3173, ../sass/drupal7-reference.scss */
 td.checkbox,
 th.checkbox {
   text-align: center;
@@ -4139,12 +3180,9 @@ th.checkbox {
  *
  * @see progress.js
  */
-/* line 3183, ../sass/drupal7-reference.scss */
 .progress {
   font-weight: bold;
 }
-
-/* line 3186, ../sass/drupal7-reference.scss */
 .progress .bar {
   background: #ccc;
   border-color: #666;
@@ -4153,109 +3191,82 @@ th.checkbox {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-
-/* line 3194, ../sass/drupal7-reference.scss */
 .progress .filled {
   background: #0072b9 url(../../misc/progress.gif);
 }
 
+
 /*
  * modules/taxonomy/taxonomy.css
  */
-/* line 3203, ../sass/drupal7-reference.scss */
+
 tr.taxonomy-term-preview {
   background-color: #EEE;
 }
-
-/* line 3206, ../sass/drupal7-reference.scss */
 tr.taxonomy-term-divider-top {
   border-bottom: none;
 }
-
-/* line 3209, ../sass/drupal7-reference.scss */
 tr.taxonomy-term-divider-bottom {
   border-top: 1px dotted #CCC;
 }
-
-/* line 3212, ../sass/drupal7-reference.scss */
 .taxonomy-term-description {
   margin: 5px 0 20px;
 }
 
+
 /*
  * modules/toolbar/toolbar-rtl.css
  */
-/* line 3221, ../sass/drupal7-reference.scss */
+
 #toolbar,
 #toolbar * {
   text-align: right;
 }
-
-/* line 3225, ../sass/drupal7-reference.scss */
 #toolbar ul li {
   float: right;
 }
-
-/* line 3228, ../sass/drupal7-reference.scss */
 #toolbar ul li a {
   display: inline-block;
   float: none;
   zoom: 1;
 }
-
-/* line 3233, ../sass/drupal7-reference.scss */
 #toolbar div.toolbar-menu {
   padding: 5px 50px 5px 50px;
 }
-
-/* line 3236, ../sass/drupal7-reference.scss */
 #toolbar-user {
   float: left;
 }
-
-/* line 3239, ../sass/drupal7-reference.scss */
 #toolbar ul#toolbar-user li {
   float: none;
   display: inline;
 }
-
-/* line 3243, ../sass/drupal7-reference.scss */
 #toolbar-menu {
   float: none;
 }
-
-/* line 3246, ../sass/drupal7-reference.scss */
 #toolbar-home {
   float: right;
 }
-
-/* line 3249, ../sass/drupal7-reference.scss */
 #toolbar ul li.home a {
   position: absolute;
   right: 10px;
 }
-
-/* line 3253, ../sass/drupal7-reference.scss */
 #toolbar div.toolbar-menu a.toggle {
   left: 10px;
   right: auto;
 }
-
-/* line 3257, ../sass/drupal7-reference.scss */
 * html #toolbar {
   left: 0;
   padding-left: 0;
 }
 
+
 /*
  * modules/toolbar/toolbar.css
  */
-/* line 3267, ../sass/drupal7-reference.scss */
+
 body.toolbar {
   padding-top: 2.2em;
 }
-
-/* line 3270, ../sass/drupal7-reference.scss */
 body.toolbar-drawer {
   padding-top: 5.3em;
 }
@@ -4264,7 +3275,6 @@ body.toolbar-drawer {
  * Aggressive resets so we can achieve a consistent look in hostile CSS
  * environments.
  */
-/* line 3278, ../sass/drupal7-reference.scss */
 #toolbar,
 #toolbar * {
   border: 0;
@@ -4274,8 +3284,7 @@ body.toolbar-drawer {
   margin: 0;
   outline: 0;
   padding: 0;
-  text-align: left;
-  /* LTR */
+  text-align: left; /* LTR */
   vertical-align: baseline;
 }
 
@@ -4285,7 +3294,6 @@ body.toolbar-drawer {
  * We use a keyword for the toolbar font size to make it display consistently
  * across different themes, while still allowing browsers to resize the text.
  */
-/* line 3297, ../sass/drupal7-reference.scss */
 #toolbar {
   background: #666;
   color: #ccc;
@@ -4303,40 +3311,29 @@ body.toolbar-drawer {
   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000, direction='180', strength='10')";
   z-index: 600;
 }
-
-/* line 3314, ../sass/drupal7-reference.scss */
 #toolbar div.collapsed {
   display: none;
   visibility: hidden;
 }
-
-/* line 3318, ../sass/drupal7-reference.scss */
 #toolbar a {
   color: #fff;
   font-size: .846em;
   text-decoration: none;
 }
-
-/* line 3323, ../sass/drupal7-reference.scss */
 #toolbar ul li,
 #toolbar ul li a {
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
 }
 
 /**
  * Administration menu.
  */
-/* line 3331, ../sass/drupal7-reference.scss */
 #toolbar div.toolbar-menu {
   background: #000;
   line-height: 20px;
-  padding: 5px 50px 5px 10px;
-  /* LTR */
+  padding: 5px 50px 5px 10px; /* LTR */
   position: relative;
 }
-
-/* line 3337, ../sass/drupal7-reference.scss */
 #toolbar-home a span {
   background: url(toolbar.png) no-repeat 0 -45px;
   display: block;
@@ -4346,20 +3343,12 @@ body.toolbar-drawer {
   vertical-align: text-bottom;
   width: 11px;
 }
-
-/* line 3346, ../sass/drupal7-reference.scss */
 #toolbar-user {
-  float: right;
-  /* LTR */
+  float: right; /* LTR */
 }
-
-/* line 3349, ../sass/drupal7-reference.scss */
 #toolbar-menu {
-  float: left;
-  /* LTR */
+  float: left; /* LTR */
 }
-
-/* line 3352, ../sass/drupal7-reference.scss */
 #toolbar div.toolbar-menu a.toggle {
   background: url(toolbar.png) 0 -20px no-repeat;
   bottom: 0;
@@ -4367,46 +3356,33 @@ body.toolbar-drawer {
   height: 25px;
   overflow: hidden;
   position: absolute;
-  right: 10px;
-  /* LTR */
+  right: 10px; /* LTR */
   text-indent: -9999px;
   width: 25px;
 }
-
-/* line 3363, ../sass/drupal7-reference.scss */
 #toolbar div.toolbar-menu a.toggle:focus,
 #toolbar div.toolbar-menu a.toggle:hover {
-  background-position: -50px -20px;
+  background-position:  -50px -20px;
 }
-
-/* line 3367, ../sass/drupal7-reference.scss */
 #toolbar div.toolbar-menu a.toggle-active {
-  background-position: -25px -20px;
+  background-position:  -25px -20px;
 }
-
-/* line 3370, ../sass/drupal7-reference.scss */
 #toolbar div.toolbar-menu a.toggle-active.toggle:focus,
 #toolbar div.toolbar-menu a.toggle-active.toggle:hover {
-  background-position: -75px -20px;
+  background-position:  -75px -20px;
 }
-
-/* line 3374, ../sass/drupal7-reference.scss */
 #toolbar div.toolbar-menu ul li a {
   padding: 0 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
-
-/* line 3380, ../sass/drupal7-reference.scss */
 #toolbar div.toolbar-menu ul li a:focus,
 #toolbar div.toolbar-menu ul li a:hover,
 #toolbar div.toolbar-menu ul li a:active,
 #toolbar div.toolbar-menu ul li a.active:focus {
   background: #444;
 }
-
-/* line 3386, ../sass/drupal7-reference.scss */
 #toolbar div.toolbar-menu ul li a.active:hover,
 #toolbar div.toolbar-menu ul li a.active:active,
 #toolbar div.toolbar-menu ul li a.active,
@@ -4418,7 +3394,6 @@ body.toolbar-drawer {
 /**
  * Collapsed drawer of additional toolbar content.
  */
-/* line 3397, ../sass/drupal7-reference.scss */
 #toolbar div.toolbar-drawer {
   position: relative;
   padding: 0 10px;
@@ -4430,7 +3405,6 @@ body.toolbar-drawer {
  * IE 6 shows elements with position:fixed as position:static so we replace
  * it with position:absolute; toolbar needs its z-index to stay above overlay.
  */
-/* line 3408, ../sass/drupal7-reference.scss */
 * html #toolbar {
   left: -20px;
   margin: 0;
@@ -4440,149 +3414,125 @@ body.toolbar-drawer {
   width: 100%;
 }
 
+
 /*
  * modules/tracker/tracker.css
  */
-/* line 3422, ../sass/drupal7-reference.scss */
+
 .page-tracker td.replies {
   text-align: center;
 }
-
-/* line 3425, ../sass/drupal7-reference.scss */
 .page-tracker table {
   width: 100%;
 }
 
+
 /*
  * modules/update/update-rtl.css
  */
-/* line 3434, ../sass/drupal7-reference.scss */
+
 .update .project {
   padding-right: .25em;
 }
 
-/* line 3438, ../sass/drupal7-reference.scss */
 .update .version-status {
   float: left;
   padding-left: 10px;
 }
 
-/* line 3443, ../sass/drupal7-reference.scss */
 .update .version-status .icon {
   padding-right: .5em;
 }
 
-/* line 3447, ../sass/drupal7-reference.scss */
 .update table.version .version-title {
   padding-left: 1em;
 }
 
-/* line 3451, ../sass/drupal7-reference.scss */
 .update table.version .version-details {
   padding-left: .5em;
   direction: ltr;
 }
 
-/* line 3456, ../sass/drupal7-reference.scss */
 .update table.version .version-links {
   text-align: left;
   padding-left: 1em;
 }
 
-/* line 3461, ../sass/drupal7-reference.scss */
 .update .check-manually {
   padding-right: 1em;
 }
 
+
 /*
  * modules/update/update.css
  */
-/* line 3470, ../sass/drupal7-reference.scss */
+
 .update .project {
   font-weight: bold;
   font-size: 110%;
-  padding-left: .25em;
-  /* LTR */
+  padding-left: .25em; /* LTR */
   height: 22px;
 }
 
-/* line 3477, ../sass/drupal7-reference.scss */
 .update .version-status {
-  float: right;
-  /* LTR */
-  padding-right: 10px;
-  /* LTR */
+  float: right; /* LTR */
+  padding-right: 10px; /* LTR */
   font-size: 110%;
   height: 20px;
 }
 
-/* line 3484, ../sass/drupal7-reference.scss */
 .update .version-status .icon {
-  padding-left: .5em;
-  /* LTR */
+  padding-left: .5em; /* LTR */
 }
 
-/* line 3488, ../sass/drupal7-reference.scss */
 .update .version-date {
   white-space: nowrap;
 }
 
-/* line 3492, ../sass/drupal7-reference.scss */
 .update .info {
   margin: 0;
   padding: 1em 1em .25em 1em;
 }
 
-/* line 3497, ../sass/drupal7-reference.scss */
 .update tr.even,
 .update tr.odd {
   border: none;
 }
 
-/* line 3502, ../sass/drupal7-reference.scss */
 .update tr td {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
 
-/* line 3507, ../sass/drupal7-reference.scss */
 .update tr.error {
   background: #fcc;
 }
 
-/* line 3511, ../sass/drupal7-reference.scss */
 .update tr.error .version-recommended {
   background: #fdd;
 }
 
-/* line 3515, ../sass/drupal7-reference.scss */
 .update tr.ok {
   background: #dfd;
 }
 
-/* line 3519, ../sass/drupal7-reference.scss */
 .update tr.warning {
   background: #ffd;
 }
 
-/* line 3523, ../sass/drupal7-reference.scss */
 .update tr.warning .version-recommended {
   background: #ffe;
 }
 
-/* line 3527, ../sass/drupal7-reference.scss */
 .current-version,
 .new-version {
-  direction: ltr;
-  /* Note: version numbers should always be LTR. */
+  direction: ltr; /* Note: version numbers should always be LTR. */
 }
 
-/* line 3532, ../sass/drupal7-reference.scss */
 .update tr.unknown {
   background: #ddd;
 }
 
-/* line 3536, ../sass/drupal7-reference.scss */
 table.update,
 .update table.version {
   width: 100%;
@@ -4590,12 +3540,10 @@ table.update,
   border: none;
 }
 
-/* line 3543, ../sass/drupal7-reference.scss */
 .update table.version tbody {
   border: none;
 }
 
-/* line 3547, ../sass/drupal7-reference.scss */
 .update table.version tr,
 .update table.version td {
   line-height: .9em;
@@ -4605,75 +3553,60 @@ table.update,
   background: none;
 }
 
-/* line 3556, ../sass/drupal7-reference.scss */
 .update table.version .version-title {
-  padding-left: 1em;
-  /* LTR */
+  padding-left: 1em; /* LTR */
   width: 14em;
 }
 
-/* line 3561, ../sass/drupal7-reference.scss */
 .update table.version .version-details {
-  padding-right: .5em;
-  /* LTR */
+  padding-right: .5em; /* LTR */
 }
 
-/* line 3565, ../sass/drupal7-reference.scss */
 .update table.version .version-links {
-  text-align: right;
-  /* LTR */
-  padding-right: 1em;
-  /* LTR */
+  text-align: right; /* LTR */
+  padding-right: 1em; /* LTR */
 }
 
-/* line 3570, ../sass/drupal7-reference.scss */
 .update table.version-security .version-title {
   color: #970F00;
 }
 
-/* line 3574, ../sass/drupal7-reference.scss */
 .update table.version-recommended-strong .version-title {
   font-weight: bold;
 }
 
-/* line 3578, ../sass/drupal7-reference.scss */
 .update .security-error {
   font-weight: bold;
   color: #970F00;
 }
 
-/* line 3583, ../sass/drupal7-reference.scss */
 .update .check-manually {
-  padding-left: 1em;
-  /* LTR */
+  padding-left: 1em; /* LTR */
 }
 
-/* line 3587, ../sass/drupal7-reference.scss */
 .update-major-version-warning {
   color: #ff0000;
 }
 
-/* line 3591, ../sass/drupal7-reference.scss */
 table tbody tr.update-security,
 table tbody tr.update-unsupported {
   background: #fcc;
 }
 
-/* line 3596, ../sass/drupal7-reference.scss */
 th.update-project-name {
   width: 50%;
 }
 
+
 /*
  * modules/user/user-rtl.css
  */
-/* line 3605, ../sass/drupal7-reference.scss */
+
 #permissions td.permission {
   padding-left: 0;
   padding-right: 1.5em;
 }
 
-/* line 3610, ../sass/drupal7-reference.scss */
 #user-admin-roles .form-item-name {
   float: right;
   margin-left: 1em;
@@ -4683,55 +3616,41 @@ th.update-project-name {
 /**
  * Password strength indicator.
  */
-/* line 3619, ../sass/drupal7-reference.scss */
 .password-strength {
   float: left;
 }
-
-/* line 3622, ../sass/drupal7-reference.scss */
 .password-strength-text {
   float: left;
 }
-
-/* line 3625, ../sass/drupal7-reference.scss */
 div.password-confirm {
   float: left;
 }
-
-/* line 3628, ../sass/drupal7-reference.scss */
 .confirm-parent,
 .password-parent {
   clear: right;
 }
 
 /* Generated by user.module but used by profile.module: */
-/* line 3634, ../sass/drupal7-reference.scss */
 .profile .user-picture {
   float: left;
   margin: 0 0 1em 1em;
 }
 
+
 /*
  * modules/user/user.css
  */
-/* line 3644, ../sass/drupal7-reference.scss */
+
 #permissions td.module {
   font-weight: bold;
 }
-
-/* line 3647, ../sass/drupal7-reference.scss */
 #permissions td.permission {
-  padding-left: 1.5em;
-  /* LTR */
+  padding-left: 1.5em; /* LTR */
 }
-
-/* line 3650, ../sass/drupal7-reference.scss */
 #permissions tr.odd .form-item,
 #permissions tr.even .form-item {
   white-space: normal;
 }
-
-/* line 3654, ../sass/drupal7-reference.scss */
 #user-admin-settings fieldset .fieldset-description {
   font-size: 0.85em;
   padding-bottom: .5em;
@@ -4741,126 +3660,85 @@ div.password-confirm {
  * Override default textfield float to put the "Add role" button next to
  * the input textfield.
  */
-/* line 3663, ../sass/drupal7-reference.scss */
 #user-admin-roles td.edit-name {
   clear: both;
 }
-
-/* line 3666, ../sass/drupal7-reference.scss */
 #user-admin-roles .form-item-name {
-  float: left;
-  /* LTR */
-  margin-right: 1em;
-  /* LTR */
+  float: left; /* LTR */
+  margin-right: 1em; /* LTR */
 }
 
 /**
  * Password strength indicator.
  */
-/* line 3674, ../sass/drupal7-reference.scss */
 .password-strength {
   width: 17em;
-  float: right;
-  /* LTR */
+  float: right;  /* LTR */
   margin-top: 1.4em;
 }
-
-/* line 3679, ../sass/drupal7-reference.scss */
 .password-strength-title {
   display: inline;
 }
-
-/* line 3682, ../sass/drupal7-reference.scss */
 .password-strength-text {
-  float: right;
-  /* LTR */
+  float: right; /* LTR */
   font-weight: bold;
 }
-
-/* line 3686, ../sass/drupal7-reference.scss */
 .password-indicator {
   background-color: #C4C4C4;
   height: 0.3em;
   width: 100%;
 }
-
-/* line 3691, ../sass/drupal7-reference.scss */
 .password-indicator div {
   height: 100%;
   width: 0%;
   background-color: #47C965;
 }
-
-/* line 3696, ../sass/drupal7-reference.scss */
 input.password-confirm,
 input.password-field {
   width: 16em;
   margin-bottom: 0.4em;
 }
-
-/* line 3701, ../sass/drupal7-reference.scss */
 div.password-confirm {
-  float: right;
-  /* LTR */
+  float: right;  /* LTR */
   margin-top: 1.5em;
   visibility: hidden;
   width: 17em;
 }
-
-/* line 3707, ../sass/drupal7-reference.scss */
 div.form-item div.password-suggestions {
   padding: 0.2em 0.5em;
   margin: 0.7em 0;
   width: 38.5em;
   border: 1px solid #B4B4B4;
 }
-
-/* line 3713, ../sass/drupal7-reference.scss */
 div.password-suggestions ul {
   margin-bottom: 0;
 }
-
-/* line 3716, ../sass/drupal7-reference.scss */
 .confirm-parent,
 .password-parent {
-  clear: left;
-  /* LTR */
+  clear: left; /* LTR */
   margin: 0;
   width: 36.3em;
 }
 
 /* Generated by user.module but used by profile.module: */
-/* line 3724, ../sass/drupal7-reference.scss */
 .profile {
   clear: both;
   margin: 1em 0;
 }
-
-/* line 3728, ../sass/drupal7-reference.scss */
 .profile .user-picture {
-  float: right;
-  /* LTR */
-  margin: 0 1em 1em 0;
-  /* LTR */
+  float: right; /* LTR */
+  margin: 0 1em 1em 0; /* LTR */
 }
-
-/* line 3732, ../sass/drupal7-reference.scss */
 .profile h3 {
   border-bottom: 1px solid #ccc;
 }
-
-/* line 3735, ../sass/drupal7-reference.scss */
 .profile dl {
   margin: 0 0 1.5em 0;
 }
-
-/* line 3738, ../sass/drupal7-reference.scss */
 .profile dt {
   margin: 0 0 0.2em 0;
   font-weight: bold;
 }
-
-/* line 3742, ../sass/drupal7-reference.scss */
 .profile dd {
   margin: 0 0 1em 0;
 }

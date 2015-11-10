@@ -6,3 +6,6 @@ settings\.php
 
 files
 node_modules
+
+themes/ukcloudawards/css
+themes/ukcloudawards/css/*

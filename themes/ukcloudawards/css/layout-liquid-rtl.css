@@ -2,45 +2,54 @@
  * @file
  * RTL companion for the layout-liquid.css file.
  */
-
-
 /*
  * Content
  */
+/* line 10, ../sass/layout-liquid-rtl.scss */
 #content {
   float: right;
-  margin-left: -100%; /* Negative value of #content's width + right margin. */
+  margin-left: -100%;
+  /* Negative value of #content's width + right margin. */
   margin-right: 0;
 }
 
+/* line 16, ../sass/layout-liquid-rtl.scss */
 .sidebar-first #content .section {
   padding-left: 0;
-  padding-right: 200px; /* The width + right margin of .region-sidebar-first. */
+  padding-right: 200px;
+  /* The width + right margin of .region-sidebar-first. */
 }
 
+/* line 21, ../sass/layout-liquid-rtl.scss */
 .sidebar-second #content .section {
-  padding-left: 200px; /* The width + left margin of .region-sidebar-second. */
+  padding-left: 200px;
+  /* The width + left margin of .region-sidebar-second. */
   padding-right: 0;
 }
 
 /*
  * Navigation
  */
+/* line 29, ../sass/layout-liquid-rtl.scss */
 #navigation {
   float: right;
-  margin-left: -100%; /* Negative value of #navigation's width + right margin. */
+  margin-left: -100%;
+  /* Negative value of #navigation's width + right margin. */
   margin-right: 0;
 }
 
 /*
  * First sidebar
  */
+/* line 38, ../sass/layout-liquid-rtl.scss */
 .region-sidebar-first {
   float: right;
-  margin-left: -200px; /* Negative value of .region-sidebar-first's width + right margin. */
+  margin-left: -200px;
+  /* Negative value of .region-sidebar-first's width + right margin. */
   margin-right: 0;
 }
 
+/* line 44, ../sass/layout-liquid-rtl.scss */
 .region-sidebar-first .section {
   margin: 0 0 0 20px;
 }
@@ -48,12 +57,15 @@
 /*
  * Second sidebar
  */
+/* line 51, ../sass/layout-liquid-rtl.scss */
 .region-sidebar-second {
   float: left;
   margin-left: 0;
-  margin-right: -200px; /* Negative value of .region-sidebar-second's width + left margin. */
+  margin-right: -200px;
+  /* Negative value of .region-sidebar-second's width + left margin. */
 }
 
+/* line 57, ../sass/layout-liquid-rtl.scss */
 .region-sidebar-second .section {
   margin: 0 20px 0 0;
 }

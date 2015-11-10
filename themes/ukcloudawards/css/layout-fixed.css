@@ -14,19 +14,15 @@
  *   display, position, float, clear, width, height, min-width, min-height
  *   margin, border, padding, overflow
  */
-
-
 /*
  * Body
  */
-body {
-}
-
+/* line 29, ../sass/layout-fixed.scss */
 #page-wrapper,
 .region-bottom,
 #header .section,
 .region-footer .view-judges,
-#block-views-judges-judges-block .block-title  {
+#block-views-judges-judges-block .block-title {
   /*
    * If you want to make the page a fixed width and centered in the viewport,
    * this is the standards-compliant way to do that. See also the ie6.css file
@@ -34,68 +30,76 @@ body {
    */
   margin-left: auto;
   margin-right: auto;
-  width: 960px;
-}
-
-#page {
+  width: 1160px;
 }
 
 /*
  * Header
  */
-#header {
-}
-
-#header .section {
-}
-
-.region-header {
-}
-
 /*
  * Main (container for everything else)
  */
+/* line 58, ../sass/layout-fixed.scss */
 #main-wrapper {
   position: relative;
-}
-
-#main {
 }
 
 /*
  * Content
  */
+/* line 69, ../sass/layout-fixed.scss */
 #content,
 .no-sidebars #content {
-  float: left; /* LTR */
-  width: 960px;
-  margin-left: 0; /* LTR */
-  margin-right: -960px; /* LTR */ /* Negative value of #content's width + left margin. */
-  padding: 0; /* DO NOT CHANGE. Add padding or margin to #content .section. */
+  float: left;
+  /* LTR */
+  width: 1160px;
+  margin-left: 0;
+  /* LTR */
+  margin-right: -960px;
+  /* LTR */
+  /* Negative value of #content's width + left margin. */
+  padding: 0;
+  /* DO NOT CHANGE. Add padding or margin to #content .section. */
 }
 
+/* line 77, ../sass/layout-fixed.scss */
 .sidebar-first #content {
-  width: 760px;
-  margin-left: 200px; /* LTR */ /* The width of .region-sidebar-first. */
-  margin-right: -960px; /* LTR */ /* Negative value of #content's width + left margin. */
+  width: 960px;
+  margin-left: 200px;
+  /* LTR */
+  /* The width of .region-sidebar-first. */
+  margin-right: -1160px;
+  /* LTR */
+  /* Negative value of #content's width + left margin. */
 }
 
+/* line 83, ../sass/layout-fixed.scss */
 .sidebar-second #content {
-  width: 680px;
-  margin-left: 0; /* LTR */
-  margin-right: -760px; /* LTR */ /* Negative value of #content's width + left margin. */
+  width: 880px;
+  margin-left: 0;
+  /* LTR */
+  margin-right: -960px;
+  /* LTR */
+  /* Negative value of #content's width + left margin. */
 }
 
+/* line 89, ../sass/layout-fixed.scss */
 .sidebar-second #content .section {
-  padding: 0 50px 0 0;
+  padding: 0 100px 0 0;
 }
 
+/* line 93, ../sass/layout-fixed.scss */
 .two-sidebars #content {
-  width: 480px;
-  margin-left: 200px; /* LTR */ /* The width of .region-sidebar-first */
-  margin-right: -680px; /* LTR */ /* Negative value of #content's width + left margin. */
+  width: 680px;
+  margin-left: 200px;
+  /* LTR */
+  /* The width of .region-sidebar-first */
+  margin-right: -880px;
+  /* LTR */
+  /* Negative value of #content's width + left margin. */
 }
 
+/* line 99, ../sass/layout-fixed.scss */
 #content .section {
   margin: 0;
   padding: 0;
@@ -104,74 +108,92 @@ body {
 /*
  * Navigation
  */
+/* line 107, ../sass/layout-fixed.scss */
 #navigation {
-  float: left; /* LTR */
-  width: 960px;
-  margin-left: 0; /* LTR */
-  margin-right: -960px; /* LTR */ /* Negative value of #navigation's width + left margin. */
-  padding: 0; /* DO NOT CHANGE. Add padding or margin to #navigation .section. */
-  height: 3em; /* The navigation can have any arbritrary height. We picked one
-                    that is the line-height plus 1em: 1.3 + 1 = 2.3
-                    Set this to the same value as the margin-top below. */
+  float: left;
+  /* LTR */
+  width: 1160px;
+  margin-left: 0;
+  /* LTR */
+  margin-right: -1160px;
+  /* LTR */
+  /* Negative value of #navigation's width + left margin. */
+  padding: 0;
+  /* DO NOT CHANGE. Add padding or margin to #navigation .section. */
+  height: 3em;
+  /* The navigation can have any arbritrary height. We picked one
+       that is the line-height plus 1em: 1.3 + 1 = 2.3
+       Set this to the same value as the margin-top below. */
 }
 
+/* line 120, ../sass/layout-fixed.scss */
 .with-navigation #content,
 .with-navigation .region-sidebar-first,
 .with-navigation .region-sidebar-second {
-  margin-top: 2em; /* Set this to the same value as the navigation height above. */
-}
-
-#navigation .section {
+  margin-top: 2em;
+  /* Set this to the same value as the navigation height above. */
 }
 
 /*
  * First sidebar
  */
+/* line 130, ../sass/layout-fixed.scss */
 .region-sidebar-first {
-  float: left; /* LTR */
+  float: left;
+  /* LTR */
   width: 200px;
-  margin-left: 0; /* LTR */
-  margin-right: -200px; /* LTR */ /* Negative value of .region-sidebar-first's width + left margin. */
-  padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-first .section. */
+  margin-left: 0;
+  /* LTR */
+  margin-right: -200px;
+  /* LTR */
+  /* Negative value of .region-sidebar-first's width + left margin. */
+  padding: 0;
+  /* DO NOT CHANGE. Add padding or margin to .region-sidebar-first .section. */
 }
 
+/* line 138, ../sass/layout-fixed.scss */
 .region-sidebar-first .section {
-  margin: 0 20px 0 0; /* LTR */
+  margin: 0 20px 0 0;
+  /* LTR */
   padding: 0;
 }
 
 /*
  * Second sidebar
  */
+/* line 146, ../sass/layout-fixed.scss */
 .region-sidebar-second {
-  float: left; /* LTR */
-  width: 280px;
-  margin-left: 680px; /* LTR */ /* Width of content + sidebar-first. */
-  margin-right: -960px; /* LTR */ /* Negative value of .region-sidebar-second's width + left margin. */
-  padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-second .section. */
-  background:#fff;
+  float: left;
+  /* LTR */
+  width: 320px;
+  margin-left: 840px;
+  /* LTR */
+  /* Width of content + sidebar-first. */
+  margin-right: -1160px;
+  /* LTR */
+  /* Negative value of .region-sidebar-second's width + left margin. */
+  padding: 0;
+  /* DO NOT CHANGE. Add padding or margin to .region-sidebar-second .section. */
+  background: #fff;
 }
 
+/* line 155, ../sass/layout-fixed.scss */
 .region-sidebar-second .section {
-  margin: 0 0 0 20px; /* LTR */
+  margin: 0 0 0 20px;
+  /* LTR */
   padding: 20px 0 0 0;
 }
 
 /*
  * Footer
  */
-.region-footer {
-}
-
 /*
  * Page bottom
  */
-.region-bottom /* See also the #page-wrapper declaration above that this div shares. */ {
-}
-
 /*
  * Prevent overflowing content
  */
+/* line 181, ../sass/layout-fixed.scss */
 #header,
 #content,
 #navigation,
@@ -180,7 +202,8 @@ body {
 .region-footer,
 .region-bottom {
   overflow: visible;
-  word-wrap: break-word; /* A very nice CSS3 property */
+  word-wrap: break-word;
+  /* A very nice CSS3 property */
 }
 
 /*

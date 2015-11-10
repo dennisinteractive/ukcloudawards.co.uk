@@ -12,14 +12,53 @@
  * Body
  */
 body {
+  background:#eee;
+  color:#444;
   margin: 0;
   padding: 0;
+  font-family:"open_sanssemibold";
+}
+
+a:link {
+  color:#34b1f9;
+}
+
+a:visited {
+  color:#239ce2;
+}
+
+a:hover {
+  color:#b24376;
+}
+
+.block-title a:link,
+.node-title a:link,
+#block-menu-block-1 a:link {
+  color:#333;
+}
+
+.block-title a:visited,
+.node-title a:visited,
+#block-menu-block-1 a:visited {
+  color:#555;
+}
+
+.block-title a:hover,
+.node-title a:hover,
+#block-menu-block-1 a:hover {
+  color:#b24376;
 }
 
 #page-wrapper {
 }
 
 #page {
+
+}
+
+strong, b {
+  font-weight: normal;
+  font-family:"open_sansextrabold";
 }
 
 /*
@@ -40,9 +79,11 @@ body {
  * Header
  */
 #header {
+  background:#fff;
 }
 
 #header .section {
+  position: relative;
 }
 
 #logo /* Wrapping link for logo */ {
@@ -53,9 +94,11 @@ body {
 
 #logo img {
   vertical-align: bottom;
+  float:left;
 }
 
 #name-and-slogan /* Wrapper for website name and slogan */ {
+  display:none;
   float: left;
 }
 
@@ -81,7 +124,7 @@ div#site-name /* The name of the website */ {
 }
 
 .region-header /* Wrapper for any blocks placed in the header region */ {
-  clear: both; /* Clear the logo */
+  overflow: hidden;
 }
 
 /*
@@ -91,6 +134,14 @@ div#site-name /* The name of the website */ {
 }
 
 #main {
+}
+
+#page-title {
+  letter-spacing:-0.5px;
+  font-weight: normal;
+  font-size: 3em;
+  line-height: 1.2;
+  margin-bottom: 0.75em;
 }
 
 /*
@@ -220,6 +271,8 @@ ul.links li {
  * Footer
  */
 .region-footer {
+  background:#34b1f9;
+  padding-bottom: 100px;
 }
 
 /*

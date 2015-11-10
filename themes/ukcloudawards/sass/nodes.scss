@@ -4,21 +4,27 @@
  *
  * Style anything that isn't in the $content variable.
  */
-/* line 12, ../sass/nodes.scss */
-.preview .node {
-  /* background-color: #ffffea; */
-  /* Drupal core uses a #ffffea background */
+
+
+.node /* Node wrapper */ {
 }
 
-/* line 22, ../sass/nodes.scss */
-.node-unpublished {
-  /* background-color: #fff4f4; */
-  /* Drupal core uses a #fff4f4 background */
+.preview .node /* Preview of the content before submitting new or updated content */ {
+  /* background-color: #ffffea; */ /* Drupal core uses a #ffffea background */
 }
 
-/* line 26, ../sass/nodes.scss */
+.node-promoted /* A node that has been promoted to the front page */ {
+}
+
+.node-sticky /* A sticky node (displayed before others in a list) */ {
+}
+
+.node-unpublished /* Unpublished nodes */ {
+  /* background-color: #fff4f4; */ /* Drupal core uses a #fff4f4 background */
+}
+
 .node-unpublished div.unpublished,
-.comment-unpublished div.unpublished {
+.comment-unpublished div.unpublished /* The word "Unpublished" displayed underneath the content. */ {
   height: 0;
   overflow: visible;
   color: #d8d8d8;
@@ -28,60 +34,57 @@
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  word-wrap: break-word;
-  /* A very nice CSS3 property */
+  word-wrap: break-word; /* A very nice CSS3 property */
 }
 
-/* line 46, ../sass/nodes.scss */
+.node-by-viewer /* A node created by the current user */ {
+}
+
+.node-teaser /* A node displayed as teaser */ {
+}
+
 .node-article.node-teaser .node-title,
 .node-article.view-mode-featured_teaser .node-title {
   font-size: 1.875em;
-  line-height: 1.3;
-  letter-spacing: -1px;
-  font-family: "open_sansbold";
+  line-height:1.3;
+  letter-spacing:-1px;
+  font-family:"open_sansbold";
 }
 
-/* line 54, ../sass/nodes.scss */
 .node-article.node-teaser .node-title {
   margin-bottom: 0.25em;
 }
 
-/* line 58, ../sass/nodes.scss */
-.front .view-mode-featured_teaser.node-sticky {
-  /* Promoted (sticky) article on the homepage */
+.front .view-mode-featured_teaser.node-sticky { /* Promoted (sticky) article on the homepage */
   background: #fff;
-  padding: 1.5em;
+  padding:1.5em;
   position: relative;
 }
 
-/* line 64, ../sass/nodes.scss */
 .front .view-mode-featured_teaser.node-sticky .field-name-field-teaser-image,
 .front .view-mode-featured_teaser.node-sticky .field-name-field-youtube-embed {
   float: left;
   line-height: 0;
-  margin: -1.5em 1.5em -1.5em -1.5em;
+  margin:-1.5em 1.5em -1.5em -1.5em;
 }
 
-/* line 71, ../sass/nodes.scss */
 .front .view-mode-featured_teaser.node-sticky p:last-child {
-  margin-bottom: 0;
+  margin-bottom:0;
 }
 
-/* line 75, ../sass/nodes.scss */
 .node-judges.node-teaser,
 .node-judges.view-mode-featured_teaser {
   position: relative;
-  float: left;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  float:left;
+
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
 }
 
-/* line 84, ../sass/nodes.scss */
 .node-judges.node-teaser {
   margin-top: 21px;
 }
 
-/* line 88, ../sass/nodes.scss */
 .node-judges.node-teaser .node-title,
 .node-judges.view-mode-featured_teaser .node-title {
   position: absolute;
@@ -92,63 +95,55 @@
   line-height: 1;
   pointer-events: none;
   font-weight: normal;
-  background: #FFF;
-  padding: 0.5em 1em;
-  width: 100%;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  background:#FFF;
+  padding:0.5em 1em;
+  width:100%;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
 }
 
-/* line 105, ../sass/nodes.scss */
 .node-judges.node-teaser .node-title {
-  top: 137px;
-  z-index: 20;
-  font-size: 0.875em;
+  top:137px;
+  z-index:20;
+  font-size:0.875em;
 }
 
-/* line 111, ../sass/nodes.scss */
 .node-judges.view-mode-featured_teaser .node-title {
-  padding-right: 225px;
+  padding-right:225px;
 }
 
-/* line 115, ../sass/nodes.scss */
-.node-judges.node-teaser img,
+.node-judges.node-teaser img ,
 .node-judges.view-mode-featured_teaser img {
   position: relative;
-  z-index: 10;
+  z-index:10;
 }
 
-/* line 121, ../sass/nodes.scss */
 .node-judges.node-teaser .node-title a,
 .node-judges.view-mode-featured_teaser .node-title a {
   margin-bottom: 0.5em;
   display: block;
 }
 
-/* line 127, ../sass/nodes.scss */
 .node-judges.node-teaser .node-title span,
 .node-judges.view-mode-featured_teaser .node-title span {
   font-style: italic;
-  color: #999;
+  color:#999;
 }
 
-/* line 133, ../sass/nodes.scss */
 .front .node-judges.view-mode-featured_teaser {
-  width: 411px;
+  width:411px;
   margin-bottom: 0;
 }
 
-/* line 138, ../sass/nodes.scss */
 .front .node-judges.view-mode-featured_teaser .field-name-field-image {
   float: right;
   margin-left: 1.5em;
-  margin-right: -1.5em;
+  margin-right:-1.5em;
 }
 
-/* line 144, ../sass/nodes.scss */
 .entry-jump-link:link,
 .read-more:link {
-  background: #239ce2 url("../images/arrow.png") no-repeat right 0.75em center;
+  background: #239ce2 url("../images/arrow.png") no-repeat right 0.75em center;;
   display: block;
   float: left;
   margin: 0;
@@ -163,19 +158,16 @@
   margin-right: 1em;
 }
 
-/* line 161, ../sass/nodes.scss */
 .entry-jump-link:hover,
 .read-more:hover {
   background-color: #b24376;
 }
 
-/* line 166, ../sass/nodes.scss */
 .entry-jump-link:visited,
 .read-more:visited {
   color: #fff;
 }
 
-/* line 171, ../sass/nodes.scss */
 .page-node-done h1 {
-  display: none;
+  display:none;
 }

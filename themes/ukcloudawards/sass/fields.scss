@@ -1,0 +1,65 @@
+/**
+ * @file
+ * Field Styling
+ */
+
+
+.field /* Wrapper for any field. */ {
+}
+
+.field-collection-view {
+	margin:0;
+}
+
+.field-name-field-image,
+.field-name-field-teaser-image {
+	line-height: 0;
+}
+
+.field-name-field-quote {
+	font-family: georgia;
+	font-style: italic;
+	font-size: 1.7em;
+	padding-right: 220px;
+	line-height: 1.1;
+	position: absolute;
+}
+
+.field-name-field-quote *{
+	display:inline;
+}
+
+.field-name-field-quote:before,
+.field-name-field-quote:after {
+	font-size: 2em;
+	line-height: 0;
+	color: #b24376;
+	position: relative;
+	top: 0.3em;
+}
+
+.field-name-field-quote:before {
+	content:"&quot;";
+	margin-right: 0.1em;
+}
+
+.field-name-field-quote:after {
+	content:"&quot;";
+	margin-left: 0.1em;
+}
+
+.front .view-mode-featured_teaser.node-sticky .read-more {
+	border-radius:2.5em;
+	position: absolute;
+	bottom: 1.5em;
+	right: 100px;
+}
+
+.front .view-mode-featured_teaser.node-sticky .read-more span {
+	background: none;
+	padding:0;
+}
+
+.field-name-field-job-title {
+	font-size:0.875em;
+}

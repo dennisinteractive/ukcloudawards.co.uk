@@ -6,65 +6,65 @@
  * miscellaneous Drupal elements that appear in the $content variable, such as
  * ul.links, .pager, .more-link, etc.
  */
-
-
 /*
  * Body
  */
+/* line 14, ../sass/pages.scss */
 body {
-  background:#eee;
-  color:#444;
+  background: #eee;
+  color: #444;
   margin: 0;
   padding: 0;
-  font-family:"open_sanssemibold";
+  font-family: "open_sanssemibold";
 }
 
+/* line 22, ../sass/pages.scss */
 a:link {
-  color:#34b1f9;
+  color: #34b1f9;
 }
 
+/* line 26, ../sass/pages.scss */
 a:visited {
-  color:#239ce2;
+  color: #239ce2;
 }
 
+/* line 30, ../sass/pages.scss */
 a:hover {
-  color:#b24376;
+  color: #b24376;
 }
 
+/* line 34, ../sass/pages.scss */
 .block-title a:link,
 .node-title a:link,
 #block-menu-block-1 a:link {
-  color:#333;
+  color: #333;
 }
 
+/* line 40, ../sass/pages.scss */
 .block-title a:visited,
 .node-title a:visited,
 #block-menu-block-1 a:visited {
-  color:#555;
+  color: #555;
 }
 
+/* line 46, ../sass/pages.scss */
 .block-title a:hover,
 .node-title a:hover,
 #block-menu-block-1 a:hover {
-  color:#b24376;
+  color: #b24376;
 }
 
-#page-wrapper {
-}
-
-#page {
-
-}
-
+/* line 59, ../sass/pages.scss */
 strong, b {
   font-weight: normal;
-  font-family:"open_sansextrabold";
+  font-family: "open_sansextrabold";
 }
 
 /*
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.
  */
+/* line 68, ../sass/pages.scss */
 #skip-link a,
 #skip-link a:visited {
   display: block;
@@ -78,66 +78,68 @@ strong, b {
 /*
  * Header
  */
+/* line 81, ../sass/pages.scss */
 #header {
-  background:#fff;
+  background: #fff;
 }
 
+/* line 85, ../sass/pages.scss */
 #header .section {
   position: relative;
 }
 
-#logo /* Wrapping link for logo */ {
-  float: left; /* LTR */
+/* line 89, ../sass/pages.scss */
+#logo {
+  float: left;
+  /* LTR */
   margin: 0;
   padding: 0;
 }
 
+/* line 95, ../sass/pages.scss */
 #logo img {
   vertical-align: bottom;
-  float:left;
-}
-
-#name-and-slogan /* Wrapper for website name and slogan */ {
-  display:none;
   float: left;
 }
 
+/* line 100, ../sass/pages.scss */
+#name-and-slogan {
+  display: none;
+  float: left;
+}
+
+/* line 105, ../sass/pages.scss */
 h1#site-name,
-div#site-name /* The name of the website */ {
+div#site-name {
   margin: 0;
   font-size: 2em;
   line-height: 1.5em;
 }
 
+/* line 112, ../sass/pages.scss */
 #site-name a:link,
 #site-name a:visited {
   color: #000;
   text-decoration: none;
 }
 
+/* line 118, ../sass/pages.scss */
 #site-name a:hover,
 #site-name a:focus {
   text-decoration: underline;
 }
 
-#site-slogan /* The slogan (or tagline) of a website */ {
-}
-
-.region-header /* Wrapper for any blocks placed in the header region */ {
+/* line 126, ../sass/pages.scss */
+.region-header {
   overflow: hidden;
 }
 
 /*
  * Main (container for everything else)
  */
-#main-wrapper {
-}
-
-#main {
-}
-
+/* line 139, ../sass/pages.scss */
 #page-title {
-  letter-spacing:-0.5px;
+  letter-spacing: -0.5px;
   font-weight: normal;
   font-size: 3em;
   line-height: 1.2;
@@ -147,100 +149,85 @@ div#site-name /* The name of the website */ {
 /*
  * Content
  */
-#content {
+/* line 159, ../sass/pages.scss */
+.breadcrumb {
+  padding-bottom: 0;
+  /* Undo system.css */
 }
 
-#content .section {
-}
-
-.region-highlighted {
-}
-
-.breadcrumb /* The path to the current page in the form of a list of links */ {
-  padding-bottom: 0; /* Undo system.css */
-}
-
-h1.title, /* The title of the page */
-h2.node-title, /* Title of a piece of content when it is given in a list of content */
-h2.block-title, /* Block title */
-h2.title, /* Comment section heading */
-h2.comment-form, /* Comment form heading */
-h3.title /* Comment title */ {
+/* line 163, ../sass/pages.scss */
+h1.title,
+h2.node-title,
+h2.block-title,
+h2.title,
+h2.comment-form,
+h3.title {
   margin: 0;
 }
 
-tr.even /* Some tables have rows marked even or odd. */ {
-  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+/* line 172, ../sass/pages.scss */
+tr.even {
+  /* background-color: #eee; */
+  /* Drupal core uses a #eee background */
 }
 
+/* line 176, ../sass/pages.scss */
 tr.odd {
-  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+  /* background-color: #eee; */
+  /* Drupal core uses a #eee background */
 }
 
-div.messages /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */ {
-  margin: 1.5em 0; /* Drupal core uses "6px 0" margin */
+/* line 180, ../sass/pages.scss */
+div.messages {
+  margin: 1.5em 0;
+  /* Drupal core uses "6px 0" margin */
 }
 
+/* line 184, ../sass/pages.scss */
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-div.status /* Normal priority messages */ {
-}
-
+/* line 192, ../sass/pages.scss */
 div.warning,
-tr.warning /* Medium priority messages */ {
-  /* border: 1px solid #f0c020; */ /* Drupal core uses: 1px solid #f0c020 */
+tr.warning {
+  /* border: 1px solid #f0c020; */
+  /* Drupal core uses: 1px solid #f0c020 */
 }
 
-div.error,
-tr.error /* High priority messages. See also the .error declaration below. */ {
+/* line 201, ../sass/pages.scss */
+.error {
+  /* color: #e55; */
+  /* Drupal core uses a #e55 background */
 }
 
-.error /* Errors that are separate from div.messages status messages. */ {
-  /* color: #e55; */ /* Drupal core uses a #e55 background */
+/* line 205, ../sass/pages.scss */
+.warning {
+  /* color: #e09010; */
+  /* Drupal core uses a #e09010 background */
 }
 
-.warning /* Warnings that are separate from div.messages status messages. */ {
-  /* color: #e09010; */ /* Drupal core uses a #e09010 background */
-}
-
-div.tabs /* See also the tabs.css file. */ {
-}
-
-.region-help /* Help text on a page */ {
-}
-
-.more-help-link /* Link to more help */ {
-}
-
-.region-content /* Wrapper for the actual page content */ {
-}
-
-ul.links /* List of links */ {
-}
-
+/* line 224, ../sass/pages.scss */
 ul.links.inline {
-  display: block; /* Let the links be inline, but the container be a block. */
+  display: block;
+  /* Let the links be inline, but the container be a block. */
 }
 
+/* line 228, ../sass/pages.scss */
 ul.links li {
-  padding: 0 1em 0 0; /* LTR */
+  padding: 0 1em 0 0;
+  /* LTR */
 }
 
-.item-list .pager /* A list of page numbers when more than 1 page of content is available */ {
+/* line 232, ../sass/pages.scss */
+.item-list .pager {
   padding: 0;
 }
 
-.item-list .pager li /* Each page number in the pager list */ {
+/* line 236, ../sass/pages.scss */
+.item-list .pager li {
   padding: 0 0.5em;
-}
-
-.feed-icon /* The link to the RSS or Atom feed for the current list of content */ {
-}
-
-.more-link /* Aggregator, blog, and forum more link */ {
 }
 
 /*
@@ -249,34 +236,21 @@ ul.links li {
  * Remember to NOT add padding or margin to your .region-sidebar-first
  * (see the layout.css file.)
  */
-.region-sidebar-first {
-}
-
-.region-sidebar-first .section {
-}
-
 /*
  * Second sidebar (on right in LTR languages, on left in RTL)
  *
  * Remember to NOT add padding or margin to your .region-sidebar-second
  * (see the layout.css file.)
  */
-.region-sidebar-second {
-}
-
-.region-sidebar-second .section {
-}
-
 /*
  * Footer
  */
+/* line 273, ../sass/pages.scss */
 .region-footer {
-  background:#34b1f9;
+  background: #34b1f9;
   padding-bottom: 100px;
 }
 
 /*
  * Page bottom
  */
-.region-bottom /* Wrapper for any blocks placed in the page bottom region */ {
-}

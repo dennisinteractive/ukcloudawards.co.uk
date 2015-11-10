@@ -2,79 +2,69 @@
  * @file
  * Field Styling
  */
-
-
-.field /* Wrapper for any field. */ {
-}
-
+/* line 10, ../sass/fields.scss */
 .field-collection-view {
-	margin:0;
+  margin: 0;
 }
 
+/* line 15, ../sass/fields.scss */
 .field-name-field-image,
 .field-name-field-teaser-image {
-	line-height: 0;
+  line-height: 0;
 }
 
+/* line 19, ../sass/fields.scss */
 .field-name-field-quote {
-	font-family: georgia;
-	font-style: italic;
-	font-size: 1.7em;
-	padding-right: 220px;
-	line-height: 1.1;
-	position: absolute;
+  font-family: georgia;
+  font-style: italic;
+  font-size: 1.7em;
+  padding-right: 220px;
+  line-height: 1.1;
+  position: absolute;
 }
 
-.field-name-field-quote *{
-	display:inline;
+/* line 28, ../sass/fields.scss */
+.field-name-field-quote * {
+  display: inline;
 }
 
+/* line 33, ../sass/fields.scss */
 .field-name-field-quote:before,
 .field-name-field-quote:after {
-	font-size: 2em;
-	line-height: 0;
-	color: #b24376;
-	position: relative;
-	top: 0.3em;
+  font-size: 2em;
+  line-height: 0;
+  color: #b24376;
+  position: relative;
+  top: 0.3em;
 }
 
+/* line 41, ../sass/fields.scss */
 .field-name-field-quote:before {
-	content:"“";
-	margin-right: 0.1em;
+  content: "&quot;";
+  margin-right: 0.1em;
 }
 
+/* line 46, ../sass/fields.scss */
 .field-name-field-quote:after {
-	content:"”";
-	margin-left: 0.1em;
+  content: "&quot;";
+  margin-left: 0.1em;
 }
 
-/*.read-more:link,
-.read-more:visited {
-	background: #34b1f9;
-	display: inline-block;
-	color: #fff;
-	padding: 0.75em 1.25em;
-	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
-}*/
-
-/*.read-more span {
-	display: block;
-	background:transparent url("../images/arrow.png") no-repeat right center;
-	padding-right: 18px;
-}*/
-
+/* line 51, ../sass/fields.scss */
 .front .view-mode-featured_teaser.node-sticky .read-more {
-	border-radius:2.5em;
-	position: absolute;
-	bottom: 1.5em;
-	right: 100px;
+  border-radius: 2.5em;
+  position: absolute;
+  bottom: 1.5em;
+  right: 100px;
 }
 
+/* line 58, ../sass/fields.scss */
 .front .view-mode-featured_teaser.node-sticky .read-more span {
-	background: none;
-	padding:0;
+  background: none;
+  padding: 0;
 }
 
+/* line 63, ../sass/fields.scss */
 .field-name-field-job-title {
-	font-size:0.875em;
+  font-size: 0.875em;
 }
