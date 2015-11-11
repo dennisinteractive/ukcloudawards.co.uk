@@ -236,7 +236,7 @@ function article_field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => 'content',
-          'image_style' => '208w_16x9',
+          'image_style' => 'content_teaser_image',
         ),
         'type' => 'image',
         'weight' => 0,

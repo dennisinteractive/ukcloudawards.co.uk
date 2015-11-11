@@ -3,6 +3,8 @@
  * Block Styling
  */
 
+// Importing base partial for component, mixinsa nd vars
+@import "base";
 
 .block /* Block wrapper */ {
   margin-bottom: 1.5em;
@@ -99,11 +101,11 @@ h2.block-title /* Block title */ {
 
 #block-views-judges-judges-block {
 	clear:both;
-	margin-bottom:3em;
+	margin-bottom: 0;
 }
 
 .view-display-id-judges_block ul {
-	padding:0;
+	padding:0 32px;
 	margin:0;
 }
 
@@ -111,12 +113,12 @@ h2.block-title /* Block title */ {
 	list-style: none;
 }
 
-.view-display-id-judges_block ul li:nth-child(7n-6) {
+.view-display-id-judges_block ul li:nth-child(8n-7) {
 	clear: left;
 }
 
 .view-display-id-judges_block .field-name-field-image {
-	margin-bottom: 60px
+	margin-bottom: 80px
 }
 
 #block-system-powered-by {

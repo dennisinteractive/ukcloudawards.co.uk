@@ -19,3 +19,4 @@ features[node][] = article
 features_exclude[field_base][body] = body
 features_exclude[field_base][field_tags] = field_tags
 features_exclude[field_base][field_image] = field_image
+mtime = 1413327062
