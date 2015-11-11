@@ -1,0 +1,21 @@
+/**
+ * @file
+ * Base mixins and variables
+ */
+
+/* Imports */
+
+@import "compass";
+
+
+/* Colours */
+$colour-primary: #239ce2;
+$colour-secondary: #b24376;
+
+/* Text */
+$colour-text: #444444;
+
+/* Links */
+$colour-link: $colour-primary;
+$colour-link-hover: $colour-secondary;
+$colour-link-visited: desaturate(darken($colour-primary, 10%), 15%);
