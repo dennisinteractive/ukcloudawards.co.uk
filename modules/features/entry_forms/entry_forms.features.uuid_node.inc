@@ -1077,11 +1077,9 @@ digital_marketplace_project | Digital Marketplace Project (Formerly CloudStore)
         'type' => 'select',
         'value' => '',
         'extra' => array(
-          'items' => 'best_newcomer|Best newcomer
-best_platform_provider|Best platform provider
-best_cloud_integrator|Best cloud integrator
-best_cloudstore_provider|Best Cloudstore provider
-best_cloud_service_provider|Best cloud service provider',
+          'items' => 'best_newcomer | Best Newcomer
+best_cloud_channel_partner | Best Cloud Channel Partner
+best_cloud_service_provider | Best Cloud Service Provider',
           'multiple' => 0,
           'title_display' => 'inline',
           'private' => 0,
