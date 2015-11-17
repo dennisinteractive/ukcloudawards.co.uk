@@ -96,7 +96,7 @@ function sponsors_context_default_contexts() {
           'module' => 'views',
           'delta' => 'sponsors-partner_block',
           'region' => 'header',
-          'weight' => '-15',
+          'weight' => '-5',
         ),
       ),
     ),

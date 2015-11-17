@@ -51,8 +51,8 @@ function global_image_styles_default_video_embed_styles() {
   $video_embed_style->title = 'UK Cloud Award Full';
   $video_embed_style->data = array(
     'youtube' => array(
-      'width' => '620',
-      'height' => '349',
+      'width' => '780',
+      'height' => '439',
       'theme' => 'dark',
       'autoplay' => 1,
       'vq' => 'large',

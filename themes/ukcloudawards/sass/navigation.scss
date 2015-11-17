@@ -3,6 +3,8 @@
  * Navigation Styling
  */
 
+// Importing base partial for component, mixinsa nd vars
+@import "base";
 
 /*
  * The active item in a Drupal menu
@@ -43,8 +45,7 @@ li a.active {
 .menu-name-main-menu {
   float:right;
   line-height: 1;
-  padding-top: 3.5em;
-  padding-bottom: 4.5em;
+  padding: 1.5em 2em 1em;
 }
 
 .menu-name-main-menu ul {
@@ -76,6 +77,8 @@ li a.active {
 
 .menu-name-main-menu a {
   text-decoration: none;
+  @include link-colors($colour-text-reversed, $colour-link-hover, false, $colour-light);
+  font-size: 1.2em;
 }
 
 #secondary-menu {

@@ -11,11 +11,13 @@
 /* Colours */
 $colour-primary: #239ce2;
 $colour-secondary: #b24376;
+$colour-light: #eeeeee;
 
 /* Text */
 $colour-text: #444444;
+$colour-text-reversed: #ffffff;
 
 /* Links */
-$colour-link: $colour-primary;
+$colour-link: #34b1f9;
 $colour-link-hover: $colour-secondary;
 $colour-link-visited: desaturate(darken($colour-primary, 10%), 15%);
