@@ -1547,19 +1547,19 @@ best_cloud_service_provider|Best cloud service provider',
         'type' => 'select',
         'value' => '',
         'extra' => array(
-          'items' => 'best_cloud_crm_hcm|Best cloud CRM/HCM product
-best_cloud_erp|Best cloud ERP product
-best_cloud_storage|Best cloud storage product
-best_cloud_business_continuity|Best cloud business continuity service
-best_cloud_management|Best cloud management product
-best_cloud_productivity|Best cloud productivity suite
-best_cloud_accounting|Best cloud accounting suite
-most_innovative_smb|Most innovative SMB cloud solution
-most_innovative_enterprise|Most innovative enterprise cloud solution
-best_cloud_encryption|Best cloud encryption product
-best_cloud_privacy_protection|Best cloud privacy/protection product
-best_general_cloud_security|Best general cloud security product
-data_security_provider|Data security provider',
+          'items' => 'storage_product_of_the_year | Storage Product of the Year
+security_product_of_the_year | Security Product of the Year
+productivity_and_collaboration_product_of_the_year | Productivity and Collaboration Product of the Year
+hr_product_of_the_year | HR Product of the Year
+financial_product_of_the_year | Financial Product of the Year
+cloud_management_product_of_the_year | Cloud Management Product of the Year
+business_continuity_product_of_the_year | Business Continuity Product of the Year
+erp_product_of_the_year | ERP Product of the Year
+crm_product_of_the_year | CRM Product of the Year
+marketing_product_of_the_year | Marketing Product of the Year
+analytics_product_of_the_year | Analytics Product of the Year
+most_innovative_enterprise_product_of_the_year | Most Innovative Enterprise Product of the Year
+most_innovative_smb_product_of_the_year | Most Innovative SMB Product of the Year',
           'multiple' => 0,
           'title_display' => 'inline',
           'private' => 0,
