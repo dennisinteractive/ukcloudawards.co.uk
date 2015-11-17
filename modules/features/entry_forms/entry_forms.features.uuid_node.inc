@@ -509,8 +509,11 @@ customer|Customer',
         'type' => 'select',
         'value' => '',
         'extra' => array(
-          'items' => 'best_cloud_project_public|Best cloud project (public sector)
-best_cloud_project_private|Best cloud project (private sector)
+          'items' => 'best_public_sector_project | Best Public Sector Project
+best_private_sector_project_smb | Best Private sector Project SMB
+best_private_sector_project_enterprise | Best Private sector Project Enterprise
+digital_transformation_project | Digital Transformation Project
+digital_marketplace_project | Digital Marketplace Project (Formerly CloudStore)
 ',
           'multiple' => 0,
           'title_display' => 'before',
