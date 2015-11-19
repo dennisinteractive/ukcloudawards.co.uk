@@ -40,7 +40,7 @@ a:hover {
   color:$colour-link-hover;
 }
 
-#page-wrapper {
+.front #page-wrapper {
   &:after{
     content:" ";
     background-image:
@@ -53,8 +53,7 @@ a:hover {
         darken($colour-primary, 20%) 31px  /* determines size */
       );
     display: block;
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
+    width: 100%;
     height: 31px;
   }
 }
@@ -303,6 +302,8 @@ ul.links li {
  * Footer
  */
 .region-footer{
+  background: #fff;
+
   &:after{
     content:" ";
     background-image:

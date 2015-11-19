@@ -128,15 +128,19 @@ function STARTERKIT_preprocess_maintenance_page(&$variables, $hook) {
  * @param $hook
  *   The name of the template being rendered ("html" in this case.)
  */
-/* -- Delete this line if you want to use this function
-function STARTERKIT_preprocess_html(&$variables, $hook) {
-  $variables['sample_variable'] = t('Lorem ipsum.');
 
-  // The body tag's classes are controlled by the $classes_array variable. To
-  // remove a class from $classes_array, use array_diff().
-  //$variables['classes_array'] = array_diff($variables['classes_array'], array('class-to-remove'));
+function ukcloudawards_preprocess_html(&$variables, $hook) {
+  // Add mobile meta tag for scaling.
+  $viewport = array(
+    '#tag' => 'meta',
+    '#attributes' => array(
+      'name' => 'viewport',
+      'content' => 'width=1160, initial-scale=1, maximum-scale=1',
+    ),
+  );
+  drupal_add_html_head($viewport, 'viewport');
 }
-// */
+
 
 /**
  * Override or insert variables into the page templates.
