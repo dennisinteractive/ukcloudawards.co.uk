@@ -92,12 +92,12 @@ strong, b {
     content:" ";
     background-image:
       repeating-linear-gradient(
-        $colour-secondary,
-        $colour-secondary 8px,
-        darken($colour-secondary, 10%) 8px,
-        darken($colour-secondary, 10%) 21px,
-        darken($colour-secondary, 20%) 21px,
-        darken($colour-secondary, 20%) 27px  /* determines size */
+        $colour-primary,
+        $colour-primary 8px,
+        darken($colour-primary, 10%) 8px,
+        darken($colour-primary, 10%) 21px,
+        darken($colour-primary, 20%) 21px,
+        darken($colour-primary, 20%) 27px  /* determines size */
       );
     display: block;
     width: 100%;
