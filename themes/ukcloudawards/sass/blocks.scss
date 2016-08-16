@@ -31,7 +31,6 @@ h2.block-title /* Block title */ {
 
 .block .content /* Block's content wrapper */ {
 }
-
 #block-views-sponsors-sponsor-block {
 	text-align: center;
 }
@@ -56,11 +55,12 @@ h2.block-title /* Block title */ {
 	min-height:78px;
 	margin-bottom:0;
 	clear:right;
+	height: $header-height;
 }
 
 .view-display-id-partner_block ul {
-	margin:0;
-	padding:1em;
+	margin:0 1em 0 0;
+	padding:0 1em;
 	box-sizing: border-box;
 	float:right;
 	width:100%;
@@ -70,11 +70,14 @@ h2.block-title /* Block title */ {
 .view-display-id-partner_block ul li {
 	list-style: none;
 	float: right;
-	max-width: 191px;
+	max-width: 140px;
 	box-sizing: border-box;
 	-moz-box-sizing:border-box;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding-left: 0em;
+	padding-right: 0px;
+	padding-left: 0.5em;
+	box-sizing: content-box;
+	background-color: $colour-text-reversed;
 }
 
 /*.not-front .view-display-id-sponsor_block ul li:not(:last-child) {
@@ -125,9 +128,10 @@ h2.block-title /* Block title */ {
 #block-boxes-site-intro {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -35px;
     width: 100%;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 #block-boxes-site-intro .boxes-box-controls {
@@ -137,6 +141,16 @@ h2.block-title /* Block title */ {
 #block-boxes-site-intro p {
 	margin: 0;
 }
+
+#block-boxes-site-intro a {
+	color: $colour-link-lighten;
+}
+
+#block-boxes-site-intro a:hover {
+	color: $colour-text-reversed;
+	text-decoration: underline;
+}
+
 
 #block-views-homepage-homepage-featured {
 	margin-top:2em;

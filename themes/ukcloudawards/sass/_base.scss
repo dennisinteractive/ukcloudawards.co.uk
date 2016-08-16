@@ -10,8 +10,9 @@
 
 /* Colours */
 $colour-primary: #239ce2;
-$colour-secondary: #b24376;
+$colour-secondary: #c52a2a;
 $colour-light: #eeeeee;
+$colour-grey: #d1d3d4;
 
 /* Text */
 $colour-text: #444444;
@@ -19,5 +20,11 @@ $colour-text-reversed: #ffffff;
 
 /* Links */
 $colour-link: #34b1f9;
+$colour-menu-link: darken($colour-link, 20%);
+$colour-link-lighten: lighten($colour-link, 20%);
 $colour-link-hover: $colour-secondary;
-$colour-link-visited: desaturate(darken($colour-primary, 10%), 15%);
+$colour-link-visited: desaturate(darken($colour-link, 10%), 15%);
+$colour-menu-link-visited: desaturate(darken($colour-menu-link, 10%), 15%);
+
+/* General */
+$header-height: 250px;
