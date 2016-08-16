@@ -22,6 +22,7 @@ $colour-text-reversed: #ffffff;
 $colour-link: #34b1f9;
 $colour-menu-link: darken($colour-link, 20%);
 $colour-link-lighten: lighten($colour-link, 20%);
+$colour-link-lightener: lighten($colour-link, 30%);
 $colour-link-hover: $colour-secondary;
 $colour-link-visited: desaturate(darken($colour-link, 10%), 15%);
 $colour-menu-link-visited: desaturate(darken($colour-menu-link, 10%), 15%);
