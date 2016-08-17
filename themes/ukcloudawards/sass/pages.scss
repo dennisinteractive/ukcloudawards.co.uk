@@ -90,7 +90,7 @@ strong, b {
   color: $colour-text-reversed;
   padding-top: 5em;
   background-color: #FFF;
-  background-position-y: 5em;
+  background-position: 0 5em;
 
   &:after{
     content:" ";
