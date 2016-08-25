@@ -6,7 +6,6 @@
 .view-homepage.view-display-id-page {
 	margin-bottom:1.5em;
 	padding-bottom:2em;
-	border-bottom:1px solid #DDD;
 }
 
 .view-homepage.view-display-id-page .view-content > .odd,
@@ -19,6 +18,7 @@
 	padding: 1em 1.5em;
 	width: 100%;
 	border-radius:5px;
+	border-bottom: 1px solid #ddd;
 }
 
 .view-homepage.view-display-id-page .field-name-field-teaser-image {
