@@ -55,15 +55,17 @@ h2.block-title /* Block title */ {
 	min-height:78px;
 	margin-bottom:0;
 	clear:right;
-	height: $header-height;
+	height: 240px;
+  margin-top: 10px;
 }
 
 .view-display-id-partner_block ul {
 	margin:0 1em 0 0;
 	padding:0 1em;
 	box-sizing: border-box;
-	float:right;
-	width:100%;
+	width: 1295px;
+	position: absolute;
+	left: 0;
 }
 
 /*.front .view-display-id-sponsor_block ul li,*/
