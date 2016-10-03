@@ -138,3 +138,6 @@
 <?php print render($page['footer']); ?>
 
 <?php print render($page['bottom']); ?>
+
+<!--add tracking pixel to track users and target them with relevant ads, Case 26764-->
+<img src="http://bcp.crwdcntrl.net/5/c=4886/b=33754502" width="1" height="1" />
