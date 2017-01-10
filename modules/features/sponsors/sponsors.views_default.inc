@@ -93,6 +93,8 @@ function sponsors_views_default_views() {
 
   /* Display: Sponsor Logos */
   $handler = $view->new_display('block', 'Sponsor Logos', 'sponsor_block');
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'none';
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
