@@ -28,4 +28,4 @@ features[field_instance][] = node-sponsors-field_affiliation
 features[field_instance][] = node-sponsors-field_sponsor_logos
 features[node][] = sponsors
 features[views_view][] = sponsors
-mtime = 1384110050
+mtime = 1484066511
