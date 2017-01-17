@@ -74,3 +74,17 @@
 .node-article.view-mode-featured_teaser .field-name-body {
 	font-size: 1.2em;
 }
+
+.view-sponsors h2.node-title {
+  text-transform: uppercase;
+  margin: 1em 0;
+  pointer-events: none;
+  cursor: default;
+  font-weight: bold;
+  background-color: #197fb9;
+  padding: 0.5em;
+}
+
+.view-sponsors h2.node-title a {
+	color: white;
+}
