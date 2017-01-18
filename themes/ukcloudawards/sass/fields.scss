@@ -71,8 +71,16 @@
 	}
 }
 
-.node-article.view-mode-featured_teaser .field-name-body {
-	font-size: 1.2em;
+.node-article.view-mode-featured_teaser {
+	.field-name-body {
+		font-size: 1.2em;
+		max-width: 75%;
+	}
+	h2.node-title {
+    background-color: #eee;
+    padding: 0.5em 0.5em 0;
+    line-height: 2;
+	}
 }
 
 .view-sponsors h2.node-title {
@@ -84,10 +92,9 @@
   background-color: #197fb9;
   padding: 0.5em;
   &:first-child {
-  	margin-top: 0;
+  	margin-top: 0.4em;
   }
-}
-
-.view-sponsors h2.node-title a {
-	color: white;
+  a {
+  	color: white;
+  }
 }
