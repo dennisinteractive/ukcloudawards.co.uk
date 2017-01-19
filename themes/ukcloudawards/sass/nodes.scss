@@ -56,16 +56,17 @@
 }
 
 .front .view-mode-featured_teaser.node-sticky { /* Promoted (sticky) article on the homepage */
-  background: #eee;
-  padding:1.5em;
   position: relative;
+  .content {
+    padding: 0 1em 1em 1em;
+    background-color: #eee;
+  }
 }
 
 .front .view-mode-featured_teaser.node-sticky .field-name-field-teaser-image,
 .front .view-mode-featured_teaser.node-sticky .field-name-field-youtube-embed {
   float: left;
   line-height: 0;
-  margin:-1.5em 1.5em -1.5em -1.5em;
 }
 
 .front .view-mode-featured_teaser.node-sticky p:last-child {

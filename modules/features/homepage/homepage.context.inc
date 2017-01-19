@@ -29,7 +29,7 @@ function homepage_context_default_contexts() {
         'views-homepage-homepage_featured' => array(
           'module' => 'views',
           'delta' => 'homepage-homepage_featured',
-          'region' => 'content_top',
+          'region' => 'content',
           'weight' => '-10',
         ),
       ),
